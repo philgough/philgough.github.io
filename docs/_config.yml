@@ -1,4 +1,4 @@
-baseurl: /philgough.github.io/docs
+baseurl:
 title: Phil Gough's Personal Blog
 subtitle: Content-centric blogging
 remote-theme: clayh53/tufte-jekyll
