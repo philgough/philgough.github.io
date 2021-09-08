@@ -1,15 +1,15 @@
-baseurl: /tufte-jekyll
-title: Tufte-Jekyll
+baseurl: /philgough.github.io
+title: Phil Gough's Personal Blog
 subtitle: Content-centric blogging
 remote-theme: clayh53/tufte-jekyll
-author: clay harmon
+author: Phil Gough
 simple_search: http://google.com/search
-description: A Jekyll theme for content-rich sites
-name: tufte
+description: Based on the Jekyll theme for content-rich sites
+name: Phil Gough
 markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 permalink: /articles/:short_year/:title
-timezone: America/New_York
+timezone: Australia/Sydney
 excerpt_separator: <!--more-->  # you can specify your own separator, of course.
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'UploadToGithub.Rakefile', 'README.md']
 post:
@@ -25,4 +25,4 @@ transfer:
   command: rsync
   settings: -av
   source: _site/
-  destination: ~/Git/clayh53.github.com/
+  destination: ~/git/philgough.github.com/
