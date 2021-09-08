@@ -1,6 +1,6 @@
 baseurl:
 title: Phil Gough's Personal Blog
-subtitle: Content-centric blogging
+subtitle: Phil Gough's blog
 remote-theme: clayh53/tufte-jekyll
 author: Phil Gough
 simple_search: http://google.com/search
@@ -9,6 +9,7 @@ name: Phil Gough
 markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 permalink: /articles/:short_year/:title
+# permalink: /:categories/:title/
 timezone: Australia/Sydney
 excerpt_separator: <!--more-->  # you can specify your own separator, of course.
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'UploadToGithub.Rakefile', 'README.md']

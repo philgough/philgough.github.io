@@ -1,6 +1,6 @@
 ---
 layout: post
-title: New Blog
+title: Hello
 categories: [General]
 date: 6/09/2021
 ---

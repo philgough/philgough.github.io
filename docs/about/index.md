@@ -1,14 +1,15 @@
 ---
-layout: full-width
+layout: page
 title: About
+permalink: /about/
 ---
 
-The *Tufte-Jekyll* theme is a natural extension of the work done by [Edward Tufte](https://github.com/edwardtufte/tufte-css) and his collaborators on Github who created a CSS file that allows web writers to use the same simple and elegant style employed in his published materials.
+Dr Phil Gough, FHEA
 
-To incorporate these styles into a Jekyll theme, I have made some very slight modifications that attempt to maintain the feel of the CSS styles in his Github repo.
+### More Information
 
-Note that this is a full-width layout. This was accomplished by including ```layout: full-width``` in the YAML front matter for this page. Keep in mind that all the Tufte-Jekyll sidenote and marginnote goodness will not work on full-width layouts! 
+I'm a lecturer at The University of Sydney School of Architecture, Design and Planning, in the [discipline of design](https://design.sydney.edu.au).
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll).
+I'm also a member of the [affective interactions lab](https://design.sydney.edu.au/research/affectiveinteractions/), where we design for affective experiences.
 
-
+My contact info is on my [academic profile page](https://www.sydney.edu.au/architecture/about/our-people/academic-staff/phillip-gough.html).
