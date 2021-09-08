@@ -22,7 +22,7 @@ title: Phil Gough
 email: phillip.gough@sydney.edu.au
 description: >- # this means to ignore newlines until "baseurl:"
   Phil Gough's persinal blog
-baseurl: philgough.github.io
+baseurl: /blog
 url: https://philgough.github.io
 twitter_username: dr_pjgough
 github_username:  philgough
