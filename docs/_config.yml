@@ -27,3 +27,5 @@ transfer:
   settings: -av
   source: _site/
   destination: ~/git/philgough.github.com/
+plugins:
+  - jekyll-target-blank

@@ -5,14 +5,14 @@ categories: [Published, Research]
 date: 7/09/2021
 ---
 
-{% newthought 'Physical activity in VR is good for you,' %} even if it's not trying to be.<!--more--> That's what we found in a paper we published last year at ACM CHI conference{% sidenote 'sn-id-chireference' 'Yoo, S., Gough, P., & Kay, J. (2020). Embedding a VR Game Studio in a Sedentary Workplace. *Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems*, 1–14. [https://doi.org/10.1145/3313831.3376371](https://doi.org/10.1145/3313831.3376371){:target="_blank"}'%}.
+{% newthought 'Physical activity in VR is good for you,' %} even if it's not trying to be.<!--more--> That's what we found in a paper we published last year at ACM CHI conference{% sidenote 'sn-id-chireference' 'Yoo, S., Gough, P., & Kay, J. (2020). Embedding a VR Game Studio in a Sedentary Workplace. *Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems*, 1–14. [https://doi.org/10.1145/3313831.3376371](https://doi.org/10.1145/3313831.3376371)'%}.
 
 
 {% quotation 'All participants achieved valuable levels of physical activity and mood benefits. Importantly, for 6 participants, only with the VR game studio did they meet recommended activity levels. Our key contributions are insights about the use of a workplace VR game studio and its health benefits.' %}
 
 
 ## How this paper came about
-This paper was part of [Dr Soojeong Yoo's](https://www.linkedin.com/in/soojeong-yoo-81b59784){:target="_blank"} research into the benefits of physical activity from VR, and representations of physical activity gained from VR {% sidenote sn-id-davi 'see also: Yoo, S., Gough, P., & Kay, J. (2018). VRFit: An Interactive Dashboard for Visualising of Virtual Reality Exercise and Daily Step Data. [doi.org/10.1145/3292147.3292193](https://doi.org/10.1145/3292147.3292193){:target="_blank"}' %}. We were both working in USYD's School of IT\* {% marginnote mn-id-SIT '\*now school of computer science.' %} with Prof. Judy Kay. I worked on some data analysis, and Soojeong led the study. It took more than one attempt to get into CHI, as it's quite a competitive conference, and our paper improved (the system works!?) with reviewer feedback.
+This paper was part of [Dr Soojeong Yoo's](https://www.linkedin.com/in/soojeong-yoo-81b59784) research into the benefits of physical activity from VR, and representations of physical activity gained from VR {% sidenote sn-id-davi 'see also: Yoo, S., Gough, P., & Kay, J. (2018). VRFit: An Interactive Dashboard for Visualising of Virtual Reality Exercise and Daily Step Data. [doi.org/10.1145/3292147.3292193](https://doi.org/10.1145/3292147.3292193)' %}. We were both working in USYD's School of IT\* {% marginnote mn-id-SIT '\*now school of computer science.' %} with Prof. Judy Kay. I worked on some data analysis, and Soojeong led the study. It took more than one attempt to get into CHI, as it's quite a competitive conference, and our paper improved (the system works!?) with reviewer feedback.
 
 
 ## Why it's worth looking at this problem

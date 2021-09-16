@@ -14,7 +14,7 @@ require "shellwords"
 
 
     def render(context)
-      "<span class='quotation'>#{@text[0]}</span> "
+      "<div class='epigraph'><blockquote><p>#{@text[0]}</p></blockquote></div>"
     end
   end
 end
