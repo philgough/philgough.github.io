@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tufte-Jekyll</title>
+    <description>A Jekyll theme for content-rich sites</description>
+    <link>http://0.0.0.0:4000/tufte-jekyll/</link>
+    <atom:link href="http://0.0.0.0:4000/tufte-jekyll/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 16 Sep 2021 09:37:02 -0400</pubDate>
+    <lastBuildDate>Thu, 16 Sep 2021 09:37:02 -0400</lastBuildDate>
+    <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Prototyping Biodesign</title>
+        <description>&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;When, if at all, will Synthetic Biology be like  electronics?&lt;/span&gt;  As a designer, I don’t &lt;em&gt;have&lt;/em&gt; to know anything about silicon chip physics to prototype electronic devices.&lt;!--more--&gt; I don’t even have to know circuit theory to create an interactive electronic device. With platforms such as the BBC Microbit plus the Grove inventor kit, or the littleBits system&lt;label for=&quot;sn-id-MBandGrove&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-MBandGrove&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Check &lt;a href=&quot;https://microbit.org&quot;&gt;the BBC Microbit Website&lt;/a&gt;, &lt;a href=&quot;https://seeeddoc.github.io/Grove_System/&quot;&gt;Seeed wiki for Grove System&lt;/a&gt; and &lt;a href=&quot;https://sphero.com/pages/littlebits&quot;&gt;littleBits&lt;/a&gt; sites. &lt;/span&gt;, prototyping with electronics hardware is accessible without knowing circuit theory beyond the most simple understanding. The BBC Microbit allows someone with enough digital literacy to use &lt;a href=&quot;https://makecode.microbit.org&quot;&gt;Microsoft’s visual programming language, MakeCode&lt;/a&gt; to make some pretty impressive prototypes of interactive systems, especially when paired with a breakout board like the with the Grove inventor kit&lt;label for=&quot;sn-id-GroveLibs&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-GroveLibs&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;If you happen to have one of these kits, I have a &lt;a href=&quot;https://github.com/philgough/grove_pygestures&quot;&gt;github repository with libraries for use with Microbit/MicroPython/Mu&lt;/a&gt; &lt;/span&gt;.&lt;/p&gt;
+
+&lt;p&gt;I am not the kind of person who would ever advocate for having less knowledge. Having taught Physical Computing in an interaction design course (capital D IXD), it’s important to understand the basics of electronic systems work. The question is how much knowledge is enough to allow us to design effectively. Did my class need to know about basics of voltage, resistance and power? Sure. Did they need to know how a transistor works at a physical level? To &lt;em&gt;prototype&lt;/em&gt; interactive systems, no, they don’t. They need to know how the interactive system collects, and processes data from a sensor, and maps that to some kind of output. But they do this successfully without understanding how a variable resistor works, because the kit we used had one way to plug it in, and one way to read the data. The design students also were able to use these systems to evaluate the interactions with the system. When there’s more than one way to plug the electronic part in (I’m looking at you, &lt;a href=&quot;https://wiki.seeedstudio.com/Grove-LED_Socket_Kit/&quot;&gt;Grove LED socket&lt;/a&gt;!) it causes problems for novices*&lt;label for=&quot;mn-id-LEDs&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mn-id-LEDs&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;em&gt;the LED socket *does&lt;/em&gt; come with an LED that has legs trimmed to equal length… and over a zoom tutorial, it’s difficult to describe which edge is flattened. Long live NeoPixels! &lt;/span&gt;. Designers need some knowledge, to communicate with an electrical engineer and/or software developer, but the designers can build and test prototypes with off-the-shelf kits. If we we want to compare prototyping interactive electronics with interactive synthetic biology, the question is worth asking:&lt;/p&gt;
+
+&lt;div class=&quot;epigraph&quot;&gt;&lt;blockquote&gt;&lt;p&gt;How much biology will a designer need to know, in order to prototype with synthetic biology?&lt;/p&gt;&lt;/blockquote&gt;&lt;/div&gt;
+
+&lt;p&gt;In a similar vein to the maker movement, &lt;a href=&quot;https://www.forbes.com/sites/fernandezelizabeth/2019/09/19/yes-people-can-edit-the-genome-in-their-garage-can-they-be-regulated/&quot;&gt;there’s a biohacker culture emerging&lt;/a&gt;. Perhaps over time it will bild the same kind of community as a platform such as &lt;a href=&quot;http://arduino.cc&quot;&gt;Arduino&lt;/a&gt;, or the numerous desktop 3D printing systems, which evolved from the earliest robotic prototypes in 1984&lt;label for=&quot;sn-id-3dprint&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-3dprint&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;See Horvath, J. (2014). &lt;a href=&quot;https://doi.org/10.1007/978-1-4842-0025-4_1&quot;&gt;A Brief History of 3D Printing&lt;/a&gt;. &lt;/span&gt;. Today, you can purchase DIY kits allow CRISPR Gene editing at home. So it’s not unreasonable to imagine that one day there will be a designer who will want to prototype with some kind of off-the-shelf synthetic biology kit. What do designers need to know about biology?&lt;/p&gt;
+
+&lt;h2 id=&quot;ethics&quot;&gt;Ethics&lt;/h2&gt;
+&lt;p&gt;First and foremost, design needs to develop a set of ethics and principles of working with living things. An introduction to Bioethics would be a good start. Basil Varkey describes 4 principles of bioethics:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Beneficence, nonmaleficence, autonomy, and justice constitute the 4 principles of ethics. The first 2 can be traced back to the time of Hippocrates “to help and do no harm,” while the latter 2 evolved later&lt;label for=&quot;sn-id-bioethics&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-bioethics&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;p.18 of Varkey2020, &lt;a href=&quot;https://doi.org/10.1159/000509119&quot;&gt;open access article here&lt;/a&gt;. &lt;/span&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The DIYBio community has also produced two &lt;a href=&quot;https://diybio.org/codes/&quot;&gt;sets of ethics codes&lt;/a&gt; in 2011 from congresses in Europe and USA. These lists define what DIYBio is, and acting outside these principles rejects the community.&lt;/p&gt;
+
+&lt;p&gt;Designing with synthetic biology can learn from the DIYBio ethics and bioethics principles.&lt;/p&gt;
+
+&lt;h2 id=&quot;collaboration&quot;&gt;Collaboration&lt;/h2&gt;
+&lt;p&gt;The scientific method as students learn it is a cycle of observation, research, hypothesis, testing, analysis and communication. 
+&lt;label for=&quot;mf-id-science&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-science&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/The_Scientific_Method.svg/1920px-The_Scientific_Method.svg.png&quot; /&gt;&lt;br /&gt;The scientific Method, via &lt;a href=&quot;https://en.wikipedia.org/wiki/Scientific_method#/media/File:The_Scientific_Method.svg&quot;&gt;wikimedia&lt;/a&gt;&lt;/span&gt;
+However, the reality is that since science is also dealing with more messy (or &lt;a href=&quot;https://direct.mit.edu/posc/article/28/4/482/97500/Mess-in-Science-and-Wicked-Problems&quot;&gt;wicked&lt;/a&gt;) problems than the scientific method implies. This provides an interesting opportunity for collaboration between science and design.&lt;/p&gt;
+
+&lt;h2 id=&quot;prototyping&quot;&gt;Prototyping&lt;/h2&gt;
+&lt;p&gt;If I want to make a prototype of an interactive device, I will use a generally programmable microcontroller. I have recently been introduced to the &lt;a href=&quot;https://www.adafruit.com/category/943&quot;&gt;Adafruit Feather&lt;/a&gt; platform. It’s great: small, cheap, flexible. I can design interactions, program the device, evaluate prototypes, test with users, all the stuff I need to do to support my design process. This is particularly relevant as a design researcher, as I want to be able to reuse hardware for another project. However, if the product is going to go into production, it will be run on a custom PCB. Designers prototyping with Synthetic Biology can also use approaches such as &lt;a href=&quot;https://medium.com/the-31-5-guy/the-wizard-of-oz-prototyping-technique-9d8366cd7692&quot;&gt;&lt;em&gt;Wizard of Oz&lt;/em&gt; method&lt;/a&gt;, using digital systems to mimic some of the output that might be produced with synthetic biology.&lt;/p&gt;
+
+&lt;h2 id=&quot;final-thought&quot;&gt;Final Thought&lt;/h2&gt;
+&lt;p&gt;Science, particularly synthetic biology, and design have a lot to offer each other. There is a need for a code of ethics within biodesign as designers start to work with synthetic biology systems. This can be built on top of bioethics and DIYBio. Design also works with messy, intractable and wicked problems, and has many ways of working in this space and can help science navigate this problem space, to draw on the strengths of both fields.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 09 Sep 2021 00:00:00 -0400</pubDate>
+        <link>http://0.0.0.0:4000/tufte-jekyll/articles/21/Interactive-Biodesign</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/tufte-jekyll/articles/21/Interactive-Biodesign</guid>
+        
+        
+        <category>Biodesign</category>
+        
+        <category>Prototyping</category>
+        
+        <category>Opinion</category>
+        
+      </item>
+    
+  </channel>
+</rss>
