@@ -153,6 +153,20 @@ div.epigraph > blockquote > footer {  font-style: normal;
 div.epigraph > blockquote > footer > cite { font-style: italic; }
 /* end chapter epigraphs styles */
 
+
+/* quotations */
+div.quotation { margin: 3.5636rem 0; }
+
+div.quotation > blockquote { margin-top: 3rem;
+                            margin-bottom: 3rem;
+
+                             }                      
+
+div.quotation > blockquote, div.quotation > blockquote > p { font-style: italic; }
+
+/* end chapter quotations styles */
+
+
 blockquote p, blockquote footer{  width: 45%;
                                   padding-left: 2.5%;
                                   padding-right: 2.5%;}
@@ -234,6 +248,7 @@ article { position: relative;
           padding: 1
 
           rem 0rem 2.5rem 0rem; } // reduced top and bottom padding by 50%
+          
 
 section { padding-top: 1rem;
           padding-bottom: 1rem; }
@@ -580,67 +595,29 @@ hr.slender {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-mail3:before {
-  content: "\ea85";
-}
-.icon-amazon:before {
-  content: "\ea87";
-}
-.icon-google2:before {
-  content: "\ea89";
-}
-.icon-facebook2:before {
-  content: "\ea91";
+.icon-google:before {
+  content: "\ea88";
 }
 .icon-twitter:before {
   content: "\ea96";
 }
-.icon-rss2:before {
-  content: "\ea9c";
-}
-.icon-youtube:before {
-  content: "\ea9d";
-}
-.icon-vimeo2:before {
-  content: "\eaa1";
-}
-.icon-lanyrd:before {
-  content: "\eaa2";
-}
-.icon-flickr3:before {
-  content: "\eaa5";
-}
-.icon-behance2:before {
-  content: "\eaa9";
-}
-.icon-dropbox:before {
-  content: "\eaae";
-}
 .icon-github:before {
   content: "\eab0";
-}
-.icon-blogger2:before {
-  content: "\eab8";
-}
-.icon-soundcloud2:before {
-  content: "\eac4";
-}
-.icon-skype:before {
-  content: "\eac5";
-}
-.icon-reddit:before {
-  content: "\eac6";
 }
 .icon-linkedin:before {
   content: "\eac9";
 }
-.icon-pinterest:before {
-  content: "\ead1";
-}
-.icon-paypal:before {
-  content: "\ead8";
-}
-.icon-html-five:before {
-  content: "\eae4";
+.icon-instagram:before {
+  content: "\ea92";
 }
 /*-- End of Icomoon icon font section --*/
+
+
+
+.archive-item {
+  list-style-type: none;
+  display: inline;
+}
+.archive-list {
+  list-style: none;
+}
