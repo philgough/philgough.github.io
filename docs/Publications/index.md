@@ -31,5 +31,6 @@ permalink: /publications/
 
 
 # Non-Traditional Output
-- Gough, P., Zackeroff, L., & (curators). (2016). *Science of the Unseen*. Science of the Unseen (Online). ACM SIGGRAPH Digital Arts. Retrieved from [http://science-unseen.siggraph.org/](http://science-unseen.siggraph.org/){:target = "_blank"}
+- Gough, P., McEwan, J., et al (2017) _Gulliver's Swift Travel Service_ (Interactive Installation). Vivid Sydney 2017. 
+- Gough, P., Zackeroff, L., & (curators). (2016). _Science of the Unseen_. Science of the Unseen (Online). ACM SIGGRAPH Digital Arts. Retrieved from [http://science-unseen.siggraph.org/](http://science-unseen.siggraph.org/){:target = "_blank"}
 
