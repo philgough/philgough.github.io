@@ -8,7 +8,7 @@ date: 7/09/2021
 {% newthought 'Physical activity in VR is good for you,' %} even if it's not trying to be.<!--more--> That's what we found in a paper we published last year at ACM CHI conference{% sidenote 'sn-id-chireference' 'Yoo, S., Gough, P., & Kay, J. (2020). Embedding a VR Game Studio in a Sedentary Workplace. *Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems*, 1–14. [https://doi.org/10.1145/3313831.3376371](https://doi.org/10.1145/3313831.3376371)'%}.
 
 
-{% quotation 'All participants achieved valuable levels of physical activity and mood benefits. Importantly, for 6 participants, only with the VR game studio did they meet recommended activity levels. Our key contributions are insights about the use of a workplace VR game studio and its health benefits.' %}
+> All participants achieved valuable levels of physical activity and mood benefits. Importantly, for 6 participants, only with the VR game studio did they meet recommended activity levels. Our key contributions are insights about the use of a workplace VR game studio and its health benefits.
 
 
 ## How this paper came about
@@ -20,8 +20,8 @@ Lots of jobs are pretty sedentary nowadays, more than half o the jobs in Austral
 
 ## What did we do?
 Soojeong's study was the first to look at how people chose to use a VR studio in an otherwise sedentary workplace. There were two main questions throughout the study:
-{% quotation 'What health benefits do participants gain from VR game studio sessions?' %}
-{% quotation 'What motivates participants to use the VR game studio and how to they use it?' %}
+> What health benefits do participants gain from VR game studio sessions?
+> What motivates participants to use the VR game studio and how to they use it?
 So Soojeong set up a VR studio in one of the school's research spaces. Participants could book a time to go there (one at a time please) during work hours, take a break from what they're doing, play some casual VR games, and then get back to the desk. The idea is the participants could take a break and do something different, which is pretty normal. So why not play a game?
 
 ## What we found out

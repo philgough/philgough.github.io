@@ -1,4 +1,4 @@
-baseurl:
+baseurl: /philgough
 title: Phil Gough's Personal Blog
 subtitle: Phil Gough's blog
 remote-theme: clayh53/tufte-jekyll
@@ -26,6 +26,9 @@ transfer:
   command: rsync
   settings: -av
   source: _site/
-  destination: ~/git/philgough.github.com/
+  destination: ~/git/philgough.github.io/
 plugins:
   - jekyll-target-blank
+
+
+  

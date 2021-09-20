@@ -14,7 +14,7 @@ title: Categories
     {% for post in site.categories[category_name] %}
     <ul class="archive-list">
       <li class="archive-item"><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></li>
-      <li class="archive-item">{{post.date | date_to_string}}</li>
+      <li class="archive-item">{{post.date | date: "%-d %b %Y"}}</li>
     </ul>
     {% endfor %}
   </div>
