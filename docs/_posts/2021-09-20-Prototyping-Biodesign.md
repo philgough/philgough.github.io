@@ -2,7 +2,7 @@
 layout: post
 title: Prototyping Biodesign
 categories: [Biodesign, Prototyping, Opinion]
-date: 9/09/2021
+date: 20/09/2021
 ---
 
 {% newthought 'When, if at all, will Synthetic Biology be like  electronics?' %} As a designer, I don't _have_ to know anything about silicon chip physics to prototype electronic devices.<!--more--> I don't even have to know circuit theory to create an interactive electronic device. With platforms such as the BBC Microbit plus the Grove inventor kit, or the littleBits system{% sidenote 'sn-id-MBandGrove' 'Check [the BBC Microbit Website](https://microbit.org), [Seeed wiki for Grove System](https://seeeddoc.github.io/Grove_System/) and [littleBits](https://sphero.com/pages/littlebits) sites.' %}, prototyping with electronics hardware is accessible without knowing circuit theory beyond the most simple understanding. The BBC Microbit allows someone with enough digital literacy to use [Microsoft's visual programming language, MakeCode](https://makecode.microbit.org) to make some pretty impressive prototypes of interactive systems, especially when paired with a breakout board like the with the Grove inventor kit{% sidenote 'sn-id-GroveLibs' 'If you happen to have one of these kits, I have a [github repository with libraries for use with Microbit/MicroPython/Mu](https://github.com/philgough/grove_pygestures)' %}. 
