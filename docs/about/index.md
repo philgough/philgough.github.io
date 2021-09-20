@@ -1,6 +1,6 @@
 ---
 layout: full-width
-title: About
+title: About Me
 permalink: /about/
 ---
 
