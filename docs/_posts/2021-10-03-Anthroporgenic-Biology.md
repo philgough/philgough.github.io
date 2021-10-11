@@ -10,7 +10,7 @@ It was a windy day outside, the breeze on the side of Iris' face was starting to
 
 Iris rolled her eyes a moment later as the cold air from the air conditioning hit the skin on her other side.
 
-"O-home," she said, a patch on the wall started to glow softly in anticipation "why did you do turn on the a/c?" she asked the AI assistant that lived in the walls of her apartment. The was a brief, but too-long pause before the reply as a server somewhere computed an answer. The Open-Home project AI was never as quick as the commercial software when it had to process a response. 
+"O-home," she said, a patch on the wall started to glow softly in anticipation "why did you do turn on the a/c?" she asked the AI assistant that lived in the walls of her apartment. There was a brief, but too-long pause before the reply as a server somewhere computed an answer. The Open-Home project AI was never as quick as the commercial software when it had to process a response. 
 
 "The internal temperature is above 24° so I turned on cool air--do you wish to change the thermostat setting?"
 
