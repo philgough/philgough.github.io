@@ -10,7 +10,7 @@ Gough, P. & Zhao, J, (in press). Data Visualisaiton. In Rowland, S. & Kuchel, L.
 
 Gough, P., Forman, J., Pataranutaporn, P., Hepburn, L.-A., Ramirez-Figueroa, C., Cooper, C., … Ahmadpour, N. (2021). Speculating on Biodesign in the Future Home. In *Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems* (pp. 1–5). New York, NY, USA: ACM. [https://doi.org/10.1145/3411763.3441353](https://doi.org/10.1145/3411763.3441353){:target = "_blank"}
 
-Wang, A. P., Pryce, D., & Gough, P. (2021). Getting to the Right Patient at the Right Time: An Interoperable Mobile App to Track the ED Journey in Hospital. In M. Merolli, C. Bain, & L. K. Schaper (Eds.), *Healthier Lives,* Digitally Enabled. Amsterdam: IOS Press. [https://doi.org/10.3233/SHTI210015](https://doi.org/10.3233/SHTI210015){:target = "_blank"}
+Wang, A. P., Pryce, D., & Gough, P. (2021). Getting to the Right Patient at the Right Time: An Interoperable Mobile App to Track the ED Journey in Hospital. In M. Merolli, C. Bain, & L. K. Schaper (Eds.), *Healthier Lives, Digitally Enabled.* Amsterdam: IOS Press. [https://doi.org/10.3233/SHTI210015](https://doi.org/10.3233/SHTI210015){:target = "_blank"}
 
 Gough, P., Yoo, S., Tomitsch, M., & Ahmadpour, N. (2021). Applying Bioaffordances through an Inquiry-Based Model: A Literature Review of Interactive Biodesign. *International Journal of Human–Computer Interaction*, 37(17), 1–15. [https://doi.org/10.1080/10447318.2021.1898846](https://doi.org/10.1080/10447318.2021.1898846){:target = "_blank"}
 
