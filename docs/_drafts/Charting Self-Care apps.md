@@ -32,7 +32,7 @@ Some of these apps seem to be promising a lot. The idea that a phone app can "el
 
 So, I've downloaded the data from the paper, and the paper to read. The terms I'll use come from their dataset. The other reason I want to do this is because I had a question that wasn't presented in the paper, but would be available in the data. The authors had to make decisions about how the work is presented, and most of the data was grouped by the frequency of themes they identified from the apps. For example in Q1: why this app, the answers were presented in a table of how many apps included listening to audio, or doing yoga etc. 
 
-{% mainfigure 'fig1-q1egs' '' 'figure caption here?' %}
+{% mainchart 'fig1-q1egs' "Here's a chart of the way they are presented" %}
 
 
 
