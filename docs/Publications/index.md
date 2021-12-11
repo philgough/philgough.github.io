@@ -6,6 +6,8 @@ permalink: /publications/
 
 # Papers 
 
+Gough, P., Kocaballi, A.B., Naqshbandi, K., Cochrane, K., Mah, K., Pillai, A.,  Deny, A., Yorulmaz, Y., Ahmadpour, N. (2021). Co-designing a Technology Probe with Experienced Designers. ACM OzCHI ’21, 30 Nov.–03 Dec., 2021. [Preprint Online](https://www.researchgate.net/publication/356194790_Co-designing_a_Technology_Probe_with_Experienced_Designers){:target="_blank"} **Best Paper Award**
+
 Gough, P. & Zhao, J, (in press). Data Visualisaiton. In Rowland, S. & Kuchel, L. (Eds.) _Science + SciComm + Work: Effective Communication in Science Programs. A Practical Guide for Students and Teachers_. Springer.
 
 Gough, P., Forman, J., Pataranutaporn, P., Hepburn, L.-A., Ramirez-Figueroa, C., Cooper, C., … Ahmadpour, N. (2021). Speculating on Biodesign in the Future Home. In *Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems* (pp. 1–5). New York, NY, USA: ACM. [https://doi.org/10.1145/3411763.3441353](https://doi.org/10.1145/3411763.3441353){:target = "_blank"}
