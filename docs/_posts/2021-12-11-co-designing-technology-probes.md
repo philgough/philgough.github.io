@@ -34,7 +34,7 @@ So, rather than doing an entire user study to solve the usability issues, we gav
 
 We ran a workshop that focused on discussing how the designers felt that they could transform the probe. They wrote a short statement that was [included in the paper](https://www.researchgate.net/publication/356194790_Co-designing_a_Technology_Probe_with_Experienced_Designers){:target="_blank"} that outlines their background or *positionality* as a designer, and how they would change or improve the design of the object. 
 
-{% maincolumn 'assets/codesign-tech-probes/workshop.jpg' 'The workshop was a great we to generate new ideas.' %}
+{% maincolumn 'assets/codesign-tech-probes/workshop.jpg' 'The workshop was a great way to generate new ideas.' %}
 
 ## What we found
 
