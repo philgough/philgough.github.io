@@ -7,7 +7,7 @@ permalink: /publications/
 # Papers 
 Gough, P., Globa, A., & Reinhardt, D. (2022). Computational Design with Myco-Materials. In *POST-CARBON, Proceedings of the 27th International Conference of the Association for Computer- Aided Architectural Design Research in Asia (CAADRIA) 2022*, Volume 2, 649-658. Association for Computer-Aided Architectural Design Research in Asia, Hong Kong. DOI: [10.52842/conf.caadria.2022.2.649](https://doi.org/10.52842/conf.caadria.2022.2.649){:_target="_blank"}
 
-Gough, P., Kocaballi, A.B., Naqshbandi, K., Cochrane, K., Mah, K., Pillai, A.,  Deny, A., Yorulmaz, Y., Ahmadpour, N. (2021). Co-designing a Technology Probe with Experienced Designers. ACM OzCHI ’21, 30 Nov.–03 Dec., 2021. DOI: [10.1145/3520495.3520513](https://dl.acm.org/doi/10.1145/3520495.3520513){:target="_blank"} **Best Paper Award**
+Gough, P., Kocaballi, A.B., Naqshbandi, K., Cochrane, K., Mah, K., Pillai, A., Deny, A., Yorulmaz, Y., Ahmadpour, N. (2021). Co-designing a Technology Probe with Experienced Designers. ACM OzCHI ’21, 30 Nov.–03 Dec., 2021. DOI: [10.1145/3520495.3520513](https://dl.acm.org/doi/10.1145/3520495.3520513){:target="_blank"} **Best Paper Award**
 
 Gough, P. & Zhao, J, (in press, 2023). Data Visualisaiton. In Rowland, S. & Kuchel, L. (Eds.) _Science + SciComm + Work: Effective Communication in Science Programs. A Practical Guide for Students and Teachers_. Springer.
 
