@@ -22,6 +22,14 @@ Gough, P. & Zhao, J. (2023) Data Visualisation. In Rowland, S. & Kuchel, L. (Eds
 
 Gough, P., Globa, A., & Reinhardt, D. (2022). Computational Design with Myco-Materials. In *POST-CARBON, Proceedings of the 27th International Conference of the Association for Computer- Aided Architectural Design Research in Asia (CAADRIA) 2022*, Volume 2, 649-658. Association for Computer-Aided Architectural Design Research in Asia, Hong Kong. DOI: [10.52842/conf.caadria.2022.2.649](https://doi.org/10.52842/conf.caadria.2022.2.649){:_target="_blank"}
 
+Hong, G., Gough, P., Parker, C., (2022) Sprayful Interaction: Perceptions of a Moss-based SLow-resolution Living Media Display.
+_Proceedings of the 34th Australian Conference on Human-Computer Interaction, OzCHI_. ACM. DOI: [10.1145/3572921.3576207](https://dl.acm.org/doi/abs/10.1145/3572921.3576207)
+
+
+Gough, P., Globa, A., Hadigheh, A., Withana, A., (2022) Making Sustainable, Tangible Objects with Myco-materials. 
+_Companion Proceedings of the 2022 Conference on Interactive Surfaces and Spaces_. ACM. DOI: [10.1145/3532104.3571468](https://dl.acm.org/doi/abs/10.1145/3532104.3571468)
+
+
 Gough, P., Kocaballi, A.B., Naqshbandi, K., Cochrane, K., Mah, K., Pillai, A., Deny, A., Yorulmaz, Y., Ahmadpour, N. (2021). Co-designing a Technology Probe with Experienced Designers. ACM OzCHI ’21, 30 Nov.–03 Dec., 2021. DOI: [10.1145/3520495.3520513](https://dl.acm.org/doi/10.1145/3520495.3520513){:target="_blank"} **Best Paper Award**
 
 
