@@ -5,11 +5,25 @@ permalink: /publications/
 ---
 
 # Papers 
+Gough, P., Perera, P.B., Kertesz, M.A., Withana, A., (2023) Design, Mould, Grow!: A Fabrication Pipeline for Growing 3D Designs Using Myco-Materials,. _Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems_. ACM. DOI: [10.1145/3544548.3580958](https://dl.acm.org/doi/abs/10.1145/3544548.3580958)
+
+Forman, J., Pataranutaporn, P., Gough, P., Kim, R., Bell, F., Ofer, N., Lu, J., Vujic, A., ... (2023) Living Bits and Radical Aminos: A Workshop on Bio-Digital Interfaces for Human-Computer Interaction. _Extended Abstracts of the 2023 CHI Conference on Human Factors in Computing_. ACM. DOI: [10.1145/3544549.3573813](https://dl.acm.org/doi/abs/10.1145/3544549.3573813)
+
+
+Ahmadpour, N., Gough, P., Lovell, M., Austin, P., Poronnik, P., Zhang, WQ., Kay, J., ... (2023)
+How can HCI support end-of-life care? Critical perspectives on sociotechnical imaginaries for palliative care
+_Extended Abstracts of the 2023 CHI Conference on Human Factors in Computing_. ACM. DOI: [10.1145/3544549.3585768](https://dl.acm.org/doi/abs/10.1145/3544549.3585768)
+
+
+Gough, P., Bown, O., Campbell, C.R., Poronnik, P., Ross P.M. (2023)
+Student responses to creative coding in biomedical science education. _Biochemistry and Molecular Biology Education_ 51 (1), 44-56. DOI: [10.1002/bmb.21692](https://doi.org/10.1002/bmb.21692){:_target="_blank"}
+
+Gough, P. & Zhao, J. (2023) Data Visualisation. In Rowland, S. & Kuchel, L. (Eds.) _Science + SciComm + Work: Effective Communication in Science Programs. A Practical Guide for Students and Teachers_. pp.57-68. Springer
+
 Gough, P., Globa, A., & Reinhardt, D. (2022). Computational Design with Myco-Materials. In *POST-CARBON, Proceedings of the 27th International Conference of the Association for Computer- Aided Architectural Design Research in Asia (CAADRIA) 2022*, Volume 2, 649-658. Association for Computer-Aided Architectural Design Research in Asia, Hong Kong. DOI: [10.52842/conf.caadria.2022.2.649](https://doi.org/10.52842/conf.caadria.2022.2.649){:_target="_blank"}
 
 Gough, P., Kocaballi, A.B., Naqshbandi, K., Cochrane, K., Mah, K., Pillai, A., Deny, A., Yorulmaz, Y., Ahmadpour, N. (2021). Co-designing a Technology Probe with Experienced Designers. ACM OzCHI ’21, 30 Nov.–03 Dec., 2021. DOI: [10.1145/3520495.3520513](https://dl.acm.org/doi/10.1145/3520495.3520513){:target="_blank"} **Best Paper Award**
 
-Gough, P. & Zhao, J, (in press, 2023). Data Visualisaiton. In Rowland, S. & Kuchel, L. (Eds.) _Science + SciComm + Work: Effective Communication in Science Programs. A Practical Guide for Students and Teachers_. Springer.
 
 Gough, P., Forman, J., Pataranutaporn, P., Hepburn, L.-A., Ramirez-Figueroa, C., Cooper, C., … Ahmadpour, N. (2021). Speculating on Biodesign in the Future Home. In *Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems* (pp. 1–5). New York, NY, USA: ACM. [https://doi.org/10.1145/3411763.3441353](https://doi.org/10.1145/3411763.3441353){:target = "_blank"}
 
