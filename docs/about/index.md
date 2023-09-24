@@ -19,7 +19,7 @@ UoS Coordinator roles in Sydney School of Architecture Design and Planning:
 - DECO1013 Physical Computing (2019-2020)
 - DECO4200 Advanced Product Design Studio (2020-2021)
 - ARCF9001 Modes of Inquiry (2021-2022)
-- DECO2018 3D Modelling and Fabrication (2022-2022)
+- DECO2018 3D Modelling and Fabrication (2022-2023)
 - DECO2015 Responsible Design for Innovation (2023-2023)
 
 My contact info is on my [academic profile page](https://www.sydney.edu.au/architecture/about/our-people/academic-staff/phillip-gough.html).
