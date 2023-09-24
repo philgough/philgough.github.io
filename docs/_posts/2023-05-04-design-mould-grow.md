@@ -2,7 +2,7 @@
 layout: post
 title: Design, Mould, Grow!
 categories: [Publication, Biodesign, Myco-Materials]
-date: 05/04/2023
+date: 24/09/2023
 ---
 
 {% fullwidth 'assets/design-mould-grow/spheres.png' 'Paper: _Design, Mould, Grow!: A Fabrication Pipeline for Growing 3D Designs Using Myco-Materials_' %}
