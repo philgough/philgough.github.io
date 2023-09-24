@@ -18,7 +18,7 @@ _Extended Abstracts of the 2023 CHI Conference on Human Factors in Computing_. A
 Gough, P., Bown, O., Campbell, C.R., Poronnik, P., Ross P.M. (2023)
 Student responses to creative coding in biomedical science education. _Biochemistry and Molecular Biology Education_ 51 (1), 44-56. DOI: [10.1002/bmb.21692](https://doi.org/10.1002/bmb.21692){:_target="_blank"}
 
-Gough, P. & Zhao, J. (2023) Data Visualisation. In Rowland, S. & Kuchel, L. (Eds.) _Science + SciComm + Work: Effective Communication in Science Programs. A Practical Guide for Students and Teachers_. pp.57-68. Springer
+Gough, P. & Zhao, J. (2023) Data Visualisation. In Rowland, S. & Kuchel, L. (Eds.) _Teaching Science Students to Communicate: A Practical Guide_. pp.57-68. Springer. DOI: [10.1007/978-3-030-91628-2_7](https://link.springer.com/chapter/10.1007/978-3-030-91628-2_7)
 
 Gough, P., Globa, A., & Reinhardt, D. (2022). Computational Design with Myco-Materials. In *POST-CARBON, Proceedings of the 27th International Conference of the Association for Computer- Aided Architectural Design Research in Asia (CAADRIA) 2022*, Volume 2, 649-658. Association for Computer-Aided Architectural Design Research in Asia, Hong Kong. DOI: [10.52842/conf.caadria.2022.2.649](https://doi.org/10.52842/conf.caadria.2022.2.649){:_target="_blank"}
 
