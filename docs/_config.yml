@@ -27,3 +27,6 @@ transfer:
   settings: -av
   source: _site/
   destination: ~/git/philgough.github.io/  
+url: "https://philgough.github.io" # the base hostname & protocol for your site
+plugins:
+  - jekyll-sitemap
