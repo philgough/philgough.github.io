@@ -1,31 +1,402 @@
----
-layout: null
-nav_exclude: true
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <title>Phil Gough's Personal Blog</title>
+    <description>Based on the Jekyll theme for content-rich sites</description>
+    <link>https://philgough.github.io/</link>
+    <atom:link href="https://philgough.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 20 Feb 2024 15:42:07 +1100</pubDate>
+    <lastBuildDate>Tue, 20 Feb 2024 15:42:07 +1100</lastBuildDate>
+    <generator>Jekyll v4.2.2</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>Learning from Indigenous Design</title>
+        <description>&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;The week before mid-semester break was Sydney Design Week,&lt;/span&gt;  and I attended the Responsible Design Thinking Symposium &lt;!--more--&gt; at Tin Sheds Gallery at the Sydney School of Architecture, Design and Planning. I was happy that I made the time (in a chaotic period of semester) to attend. It included some fantastic presentations from Ilya Fridman &amp;amp; Yaron Meron, Desireé Ibinarriaga and Martin Tomitsch. I was really inspired by Desireé’s talk about her indigenous design methodology, and I enjoyed reading her (beautifully written) paper.&lt;/p&gt;
+
+&lt;p&gt;The paper outlines the Seven Grandfather’s Teaching, and how the principles of this teaching informs the way she designs. The principles are each associated with an animal that represents the teaching.&lt;/p&gt;
+
+&lt;p&gt;I’m not indigenous, and though Desireé has published her methodology, it’s not my place to &lt;em&gt;utilise&lt;/em&gt; it - to extract it from its context and exploit it as a resource within my own worldview. I hope in the future we can work together, and I can learn about the way she applies her method reflects values in design: Responsibility, Respect, Relationality, and Reciprocity. But I don’t think it’s my place (as someone with no North American heritage) to try to have an equivalent for my own context.&lt;/p&gt;
+
+&lt;h1 id=&quot;reflecting&quot;&gt;Reflecting&lt;/h1&gt;
+&lt;p&gt;So what do I do in response to this knowledge. How can I act?&lt;/p&gt;
+
+&lt;p&gt;I think the main theme that stood out from the symposium to me is the speed at which design is moving&lt;label for=&quot;sn-id-marcusfoth&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-marcusfoth&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Marcus Foth  has talked about this in a context of urbanism, in an article on &lt;a href=&quot;https://theconversation.com/we-should-create-cities-for-slowing-down-75689&quot; target=&quot;_blank&quot;&gt;The Coversation&lt;/a&gt; &lt;/span&gt;. It is like we think that there is a need to operate at GHz speeds, or be left behind. But we shouldn’t move fast and not worry if we break things. As Norm Sheehan puts it:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;We are all traveling very fast in a powerful culture driven by evidence, so any ameliorative practices are patches applied to the damage we leave behind. Meanwhile, the social machinery continues to operate at the same speed in the same direction. Colonized peoples know this scenario so well and now everyone is beginning to experience the abject disregard built into every level of human engagement that enables maximum exploitation.&lt;/em&gt; &lt;label for=&quot;sn-id-sheehan&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-sheehan&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;in “On Country Learning” by Uncle Charles Moran, Uncle Greg Harrington,  &amp;amp; N. Sheehan (2018) DOI: &lt;a href=&quot;https://doi.org/10.1080/17547075.2018.1430996&quot; target=&quot;_blank&quot;&gt;[10.1080/17547075.2018.1430996]&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I am biased toward slower design, because my work in Biodesign relies on fabricating things at the speed of fungal growth, rather than the speed of injection moulded plastic [0.5-1m per second]. But even a human speed would work better than imagining we are digital operators. Designers should invest in taking time necessary to gather evidence for our decisions, so that we (designers) can take responsibility for the implications of our designs. We should be critical of the methods and methodologies that we use, develop them further, and make sure we are acting with justice.&lt;/p&gt;
+
+&lt;p&gt;As a start, the Value-Sensitive Design&lt;label for=&quot;sn-id-vsd&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-vsd&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;See &lt;a href=&quot;https://vsdesign.org/&quot;&gt;vsdesign.org/&lt;/a&gt; &lt;/span&gt; Method, Multi-lifespan Timeline, stands out to me as a way that designers can use the language of “tools” and “methods” to tap the breaks. I want to change my practice to make time to investigate how as a designer my process can adapt to a different pace. My hypothesis is that I can design more effectively, sustainably and create more meaningful designs as a result.&lt;/p&gt;
+
+&lt;p&gt;It somehow seems to me that design is simultaneously overstating and understating the impact it may have in the future - especially if we consider climate change and a transition to a circular economy. We act as if nothing is happening, and keep designing objects, web-apps&lt;label for=&quot;sn-id-internet20pct&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-internet20pct&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;The internet may account for &lt;a href=&quot;https://theconversation.com/the-internet-consumes-extraordinary-amounts-of-energy-heres-how-we-can-make-it-more-sustainable-160639&quot; target=&quot;_blank&quot;&gt;one fifth of all energy use by 2025&lt;/a&gt;. &lt;/span&gt; and wearables to quantify our health (but not necessarily our wellbeing). At the same time, sustainable and circular futures are projected to be design choices, without any apparent impact on how people (“consumers”) live their lives&lt;label for=&quot;sn-id-wtfgov&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-wtfgov&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;for example, have a look at this &lt;a href=&quot;https://www.dcceew.gov.au/environment/protection/circular-economy/design#video-transcript&quot; target=&quot;_blank&quot;&gt;video from the Department of Climate Change, Energy, the Environment and Water&lt;/a&gt;… sounds simple, right!? &lt;/span&gt; or any change in the economic system that prioritises profit over all else. There is of course, a detailed report to go with this (I haven’t read it all, &lt;em&gt;yet&lt;/em&gt;), but at the core of a transition to sustainabiltiy is the actual transition. A change away from the way things are now, to something different.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 10 Nov 2023 00:00:00 +1100</pubDate>
+        <link>https://philgough.github.io/articles/23/learning-from-indigenous-design</link>
+        <guid isPermaLink="true">https://philgough.github.io/articles/23/learning-from-indigenous-design</guid>
+        
+        
+        <category>Design</category>
+        
+        <category>Reflection</category>
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Design, Mould, Grow!</title>
+        <description>&lt;figure class=&quot;fullwidth&quot;&gt;&lt;img src=&quot;/assets/design-mould-grow/spheres.png&quot; /&gt;&lt;figcaption&gt;Paper: &lt;em&gt;Design, Mould, Grow!: A Fabrication Pipeline for Growing 3D Designs Using Myco-Materials&lt;/em&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;The challenge with designing with myco-materials is creating 3D forms,&lt;/span&gt;  so we wrote a paper about the process and some software to help designers and HCI researchers.&lt;!--more--&gt; The paper was published at ACM CHI 2023&lt;label for=&quot;sn-id-reference&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-reference&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Gough, P., Perera, P. B., &lt;a href=&quot;https://www.sydney.edu.au/science/about/our-people/academic-staff/michael-kertesz.html&quot; target=&quot;_blank&quot;&gt;Kertesz, M. A.&lt;/a&gt;, &amp;amp; &lt;a href=&quot;https://www.sydney.edu.au/engineering/about/our-people/academic-staff/anusha-withana.html&quot; target=&quot;_blank&quot;&gt;Withana, A.&lt;/a&gt; (2023, April). Design, Mould, Grow!: A Fabrication Pipeline for Growing 3D Designs Using Myco-Materials. In &lt;em&gt;Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems&lt;/em&gt; (pp. 1-15). DOI: &lt;a href=&quot;https://dl.acm.org/doi/10.1145/3544548.3580958&quot; target=&quot;_blank&quot;&gt;10.1145/3544548.3580958&lt;/a&gt;. &lt;/span&gt; in Hamburg, Germany.&lt;/p&gt;
+
+&lt;p&gt;Since this is a growing area (see what I did there?), there’s a lot of opportunity to contribute something new. Unlike some other biomaterials, such as SCOBY from kombucha, we haven’t been utilising fungi mycelium as a material for very long. Unlike farming the mushrooms, creating a myco-material requires that we are able to control the development of the fungi, make it think that it’s underground, so it doesn’t spend energy creating the fruiting body (the mushroom). There’s a lot of research around myco-materials, what we are calling materials made with trimitic fungi&lt;label for=&quot;sn-id-trifungi&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-trifungi&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;These fungi have 3 types of cells. The commonly used species seem to be Oyster, Turkeytail and Reishi &lt;/span&gt; that bind together a woody substrate and can be dried to form new materials.&lt;/p&gt;
+
+&lt;p&gt;Our paper has 3 key contributions: the growing process, characterisation of the material and concepts that utilise these properties, and the design tool.&lt;/p&gt;
+
+&lt;h2 id=&quot;growing-process&quot;&gt;Growing Process&lt;/h2&gt;
+
+&lt;p&gt;The first phase of learning to grow myco-materials was to work with biologists&lt;label for=&quot;sn-id-mlmru&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-mlmru&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;From the Marsh Lawson Mushroom Research Centre at USYD &lt;/span&gt; who could help us understand the requirements for growing the mycelia by itself. We originally used sawdust from the workshop in my school, which was taken form the planer thicknesser machine. Fortunately for us, the extractor system can be arranged so that we got a clean material.&lt;/p&gt;
+
+&lt;p&gt;With 2 rounds of tests, and lots of conditions (see the paper for the full description), what we really learned was how difficult it was to start from our own substrate–even with the substrate material being autoclaved in the biology lab. This higlighted the first challenge we needed to overcome: how can we (HCI researchers without specialised biology equipment) actually work with this material?&lt;/p&gt;
+
+&lt;p&gt;The answer came from COVID lockdowns. Rather than working with our own material, while progressing the research, we purchased “grow it yourself” mushroom kits from an online supplier. These were grown by the pros, and the “target” mushroom was dominant in the little ecosystem. This is great for us, since we were able to start moulding the material, and we ended up with no problems with infection from “wild” mould after this.&lt;/p&gt;
+
+&lt;h2 id=&quot;material-and-concepts&quot;&gt;Material and concepts&lt;/h2&gt;
+
+&lt;p&gt;&lt;label for=&quot;mf-id-segment-iterations&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-segment-iterations&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/design-mould-grow/closeups.png&quot; /&gt;&lt;br /&gt;Details of forms in myco-materials.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;The material itself has some interesting affordances, and we were able to grow into some detailed shapes using 3D printed moulds. We measured properties of the material and applied them to a few concepts. Some views of the details are on the right. It was quite impressive how well the mushroom was able to “render” a surface. We had our workshop help us out by 3D scanning a few objects, and we show that adding a coffee inclusion increases the accuracy of the mushroom’s ability to render detailed features. I assume it’s because the tiny coffee particles fit better into the corners of the mould.&lt;/p&gt;
+
+&lt;p&gt;We found that the particular grow kits, with and without an inclusion of coffee grounds, were pretty consistent when drying - they reduced their size to 92% of the original mould (you can see this below). This means we can easily scale up our mould to have a final design.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;/assets/design-mould-grow/bunny-lineup.jpeg&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;The mushroom bunny on the right isn&amp;#8217;t as tall as the others, but partly because its ear broke when it was removed, and had to be pinned together with a toothpick&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;The concepts are outlined in the paper, but we applied the elasticity of the material to growing a cup coaster with a thin film resistor inside, which could track water consumption during the day, it insulates heat quite well, so we made a takeway cupholder, and it decomposes, so we made a decorative potted plant holder, which could be consumed as the plant grows.&lt;/p&gt;
+
+&lt;h2 id=&quot;design-tool&quot;&gt;Design tool&lt;/h2&gt;
+
+&lt;p&gt;I have some experience with industrial design, so I was able to start by designing the negative mould for a final shape that I wanted. It was actually fun to step back into this role. However, my colleagues in computer science don’t have this background, so it was an interesting problem, and really goes back to our initial motivation. How could we make myco-materials more accessible for HCI? This includes people who want to make a housing for a computer system out of the material.&lt;/p&gt;
+
+&lt;p&gt;We developed a Grasshopper plugin for Rhino, which is still being refined. It will generate mould designs for a given 3D model, and help the user identify planes that intersect the mould. These could be 3D printed. Our work since then has looked at how we could do away with the plastic 3D printing, and directly print the myco-material, but that’s a LOT more complicated.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-takeaway&quot;&gt;The Takeaway&lt;/h2&gt;
+&lt;p&gt;From working on this project, I learned a lot about working with this unique material, as well as writing for CHI, of course, with this being my first lead-author publication at CHI.&lt;/p&gt;
+
+&lt;p&gt;The most interesting thing for me is the way that the material expresses autonomy. The spheres at the top of the page were grown sequentially, in the same mould, in an incubator. As a designer, it’s interesting to me that they are all different: some are darker coloured, others are lumpy, some show the lines of the 3D printed moulds quite clearly. So control over the final appearance is relinquished from the designer, to the material itself, acting with its own agency.&lt;/p&gt;
+
+&lt;p&gt;Myco-materials also remind me of the concept &lt;em&gt;wabi-sabi&lt;/em&gt; — which from my reading of the topic&lt;label for=&quot;sn-id-wabi-sabi&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-wabi-sabi&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;See the short column, &lt;em&gt;Beautiful (Im)perfections Are Us&lt;/em&gt; from ACM Interactions DOI:&lt;a href=&quot;https://dl.acm.org/doi/10.1145/3555042&quot; target=&quot;_blank&quot;&gt;10.1145/3555042&lt;/a&gt; &lt;/span&gt; I interpret as: nothing is perfect, nothing is finished, nothing is permanent. I think there is beauty in the imperfection, the impermanence and lack of control that comes from partnering with a living material.&lt;/p&gt;
+
+&lt;h2 id=&quot;other-stuff&quot;&gt;Other Stuff&lt;/h2&gt;
+
+&lt;p&gt;This is a recording of the presentation given at CHI:&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/n9OHKAEEcJ8&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;This is my first time attending CHI conference &lt;em&gt;in person&lt;/em&gt;, which was exciting. Participating in ACM CHI been surprisingly complex with having to put together videos (which wasn’t clear in the early requirements), making sure PDFs are accessible etc. I’m very mindful of flying to Germany from Australia to present a paper that is related to sustainability, but we operate within the system that we have, and online attendance is not the same. I’m glad I was able to go and meet some amazing people in the HCI community, who I’m working with moving forward.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 24 Sep 2023 00:00:00 +1000</pubDate>
+        <link>https://philgough.github.io/articles/23/design-mould-grow</link>
+        <guid isPermaLink="true">https://philgough.github.io/articles/23/design-mould-grow</guid>
+        
+        
+        <category>Publication</category>
+        
+        <category>Biodesign</category>
+        
+        <category>Myco-Materials</category>
+        
+      </item>
+    
+      <item>
+        <title>Computational Design with Myco-Materials</title>
+        <description>&lt;figure class=&quot;fullwidth&quot;&gt;&lt;img src=&quot;/assets/computational-design-mycomaterials/myco-teaser.jpg&quot; /&gt;&lt;figcaption&gt;Paper: &lt;em&gt;Computational Design with Myco-Materials&lt;/em&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;How far can we push a mushroom?&lt;/span&gt;  Specifically, when we want to use it for fabrication.&lt;!--more--&gt; This might be useful for creating a circular economy, because mushrooms are a type of fungi, and fungi are the planet’s recycling system. In this paper we are sharing what we learned when we used computational methods to grow designs, and this is a high-level overview.&lt;/p&gt;
+
+&lt;p&gt;This paper was published at CAADRIA’22&lt;label for=&quot;sn-id-reference&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-reference&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Gough, P., Globa, A., &amp;amp; Reinhardt, D. (2022). Computational Design with Myco-Materials. In &lt;em&gt;POST-CARBON, Proceedings of the 27th International Conference of the Association for Computer- Aided Architectural Design Research in Asia (CAADRIA) 2022&lt;/em&gt;, Volume 2, 649-658. Association for Computer-Aided Architectural Design Research in Asia, Hong Kong. &lt;a href=&quot;https://caadria2022.org/computational_design_with_myco-materials&quot;&gt;https://caadria2022.org/computational_design_with_myco-materials&lt;/a&gt; &lt;/span&gt; in April 2022, with colleagues at &lt;a href=&quot;https://www.sydney.edu.au/architecture/our-research.html&quot; target=&quot;_blank&quot;&gt;Architecture Design and Planning&lt;/a&gt;: &lt;a href=&quot;https://www.sydney.edu.au/architecture/about/our-people/academic-staff/anastasia-globa.html&quot; target=&quot;_blank&quot;&gt;Dr Anastasia Globa&lt;/a&gt; (who took the photos in the paper) and &lt;a href=&quot;https://www.sydney.edu.au/architecture/about/our-people/academic-staff/dagmar-reinhardt.html&quot; target=&quot;_blank&quot;&gt;Associate Professor Dagmar Reinhardt&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-mushrooms&quot;&gt;Why mushrooms?&lt;/h2&gt;
+&lt;p&gt;Some mushrooms create networks of roots, &lt;em&gt;mycelia&lt;/em&gt;, that bind together the &lt;em&gt;substrate&lt;/em&gt; that they are breaking down, in nature this might be a tree, or a pile of leaves. This is useful for us, as we can get them to bind together material that is otherwise waste, like sawdust. We can dry this out to make a block of some kind. We wanted to know how detailed we can make this shape. Other studies have shown that there are a range of applications for this kind of &lt;em&gt;myco-material&lt;/em&gt;, particularly in architectural settings.&lt;/p&gt;
+
+&lt;p&gt;Mushrooms aren’t plants, they’re fungi&lt;label for=&quot;sn-id-fungikingdom&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-fungikingdom&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Fungi are a separate kingdom of life to plants and animals. &lt;/span&gt;, and the ones we used don’t draw down carbon dioxide from the atmosphere. This means that they don’t really increase in volume, like a tree does. The ones we used bind the material together until they are ready to start producing the &lt;em&gt;fruiting body&lt;/em&gt;, a mushroom. We don’t allow the mushrooms to grow, because they’ll consume as much of the material as they can. We interrupt this reproductive stage, so that the material can still be utilised. To do this, we want to make the mushroom feel like it’s underground. No fresh air (high carbon dioxide, but still enough oxygen to survive), humid, dark. Then, they will just hang out, grabbing on to more food. &lt;label for=&quot;mf-id-myco-acrylic&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-myco-acrylic&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/computational-design-mycomaterials/myco-acrylic.jpg&quot; /&gt;&lt;br /&gt;Mycelium growing on acrylic, looking for more food.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;The process for us was quite simple:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Make a mould&lt;/li&gt;
+  &lt;li&gt;Clean it with disinfectant&lt;/li&gt;
+  &lt;li&gt;Break up the mushroom material from the grow kit&lt;/li&gt;
+  &lt;li&gt;Press the mushroom material into the mould&lt;/li&gt;
+  &lt;li&gt;Allow to grow in dark, warm environment until covered with mycelium&lt;/li&gt;
+  &lt;li&gt;Remove from mould and leave to grow in the open, so all sides are covered with mycelium&lt;/li&gt;
+  &lt;li&gt;Dry in very low oven (50 - 80ºC)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The material we used is a Grow-It-Yourself mushroom kit&lt;label for=&quot;sn-id-aussiemushroomsupplies&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-aussiemushroomsupplies&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Purchased from &lt;a href=&quot;https://aussiemushroomsupplies.com.au/product/mushroom-kit-australian-reishi-ganoderma-steyaertanum/&quot; target=&quot;_blank&quot;&gt;Aussie Mushroom Supplies&lt;/a&gt; &lt;/span&gt; for this project—though, it’s not cheap per cubic cm if you’re making a lot of objects, or a really bulky design. But, for our purposes, it’s reasonable at small scale, and &lt;em&gt;much&lt;/em&gt; more reliable than trying to start from sawdust and not grow wild mould in the process. Our research was not about the growing process itself, rather, we wanted to ask what the outcomes are, if we try to make small details from this material.&lt;/p&gt;
+
+&lt;p&gt;So we purchased &lt;em&gt;substrate&lt;/em&gt;, the mushroom, and also had &lt;em&gt;inclusions&lt;/em&gt;, such as used coffee grounds and waste cardboard, which is readily available at our university, and probably most other places of work. Inclusions helped bulk out the material and altered some of its properties.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-can-a-mushroom-do&quot;&gt;What can a mushroom do?&lt;/h2&gt;
+&lt;p&gt;What kind of output do we get, if we make the moulds more and more challenging? To examine this, we did several tests, one of which was the &lt;em&gt;Segment Iterations&lt;/em&gt; and another was the &lt;em&gt;Pyramid Panels&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;For the &lt;em&gt;segment iterations&lt;/em&gt; test, we used computational design tools (grasshopper) to make moulds&lt;label for=&quot;sn-id-mouldcaps&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-mouldcaps&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Caps made to fit small containers &lt;/span&gt; that were 3D printed, with walls of different thicknesses and heights. A major limitation was how to pack the substrate between thin walls at the extreme end. The mycelium will grow between these walls, and may even hold its shape when removed from the mould, but once dried, it’s not very good at holding very thin forms. However, we can have some of these details, as long as the substrate is able to be packed into the void.&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;mf-id-segment-iterations&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-segment-iterations&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/computational-design-mycomaterials/segment-iterations.jpg&quot; /&gt;&lt;br /&gt;3D prints and the grown results.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;em&gt;pyramid panels&lt;/em&gt; also showed that we were able to perforate a structure to reduce the material usage. The triangular edges (see above) are only 150mm, so they’re quite small, but they could be used for repeating panels on a wall, for example.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-takeaway&quot;&gt;A Takeaway&lt;/h2&gt;
+&lt;p&gt;These materials are interesting to me as they can be part of a circular economy. They can be aligned with a few principles of the circular economy:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;em&gt;Keep materials in use for as long as posssible&lt;/em&gt; – taking waste (e.g. coffee grounds, waste paper, sawdust) and giving it new value, through these materials&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Technical and natural materials should be able to be separated and returned to their own cycles&lt;/em&gt; – that’s what mushrooms have always done, return organic materials to their natural cycles, for reuse! Of course, this should be designed when working with technical features, such as fastening or PCBs etc.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This paper is a demonstration of critical function for myco-materials. There’s still a lot to learn before it gets out of the lab, and I have enjoyed getting to know this material through this process.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 09 Oct 2022 00:00:00 +1100</pubDate>
+        <link>https://philgough.github.io/articles/22/computational-design-with-mycomaterials</link>
+        <guid isPermaLink="true">https://philgough.github.io/articles/22/computational-design-with-mycomaterials</guid>
+        
+        
+        <category>Publication</category>
+        
+        <category>Biodesign</category>
+        
+        <category>Myco-Materials</category>
+        
+      </item>
+    
+      <item>
+        <title>Is usability a problem?</title>
+        <description>&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Is design generating problems under the guise of usability,&lt;/span&gt;  when what is should be doing is understanding and solving them?&lt;!--more--&gt; For example, I bought a coffee press online recently. It’s terrible: the press filter doesn’t quite seal, so the coffee is silty; there is a chunky plastic housing around the glass carafe which makes the whole thing too big to hold comfortably; lid is too chunky, so too much of my coffee won’t pour out, so I tip it over further, and the angle changes too much so the spout fails to work properly, with the result that coffee ends up between the housing and the glass carafe inside. It’s just a terrible, frustrating experience, especially as I experience it &lt;em&gt;before&lt;/em&gt; the coffee. My problem is that it’s a product that I shouldn’t even think about. My goal is not to experience the use of the object, or to think about it at all; it’s for the object to let me experience the coffee-making &lt;em&gt;process&lt;/em&gt;&lt;label for=&quot;sn-id-coffee-plz&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-coffee-plz&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;or, importantly, the coffee itself. &lt;/span&gt; through a self-effacing design.&lt;/p&gt;
+
+&lt;p&gt;Ok, &lt;em&gt;I&lt;/em&gt; should have made a better choice, but maybe I could warn someone else by leaving a review. I don’t usually write reviews, but this time I thought I would do so. The website I purchased it from had a kind of virtual “recommended” sticker on the product (they haven’t decided to take that down since I contacted them to complain), as well as good reviews, both of which, I feel, influenced my decision to make that purchase. The website invited me to review their company, unsurprisingly, but not the actual product. There’s no way for me to leave a review on the actual product on their page, since the reviews are hosted by a third party, &lt;a href=&quot;https://www.trustpilot.com&quot; target=&quot;_blank&quot;&gt;Trustpilot&lt;/a&gt;. This site only allows you to post a review if you are invited or have supplied this third party with some form of personal ID.&lt;/p&gt;
+
+&lt;p&gt;How does this service increase agency for me as a user (to give a contrasting perspective to the existing reviews), or encourage trust in their service? Now that I realise that reviews are by invitation or people willing to hand over personally identfiying information, why should I trust any of those provided by that service (though they say that their mission is to combat fake reviews). I’m not suggesting that Trustpilot can’t be trusted, and as far as I know they haven’t had a security breach, but if exposing myself to risk of having personally identifiable information shared with a company I have no other contact with, I might just choose not to warn others about how disappointing a moderately expensive coffee maker is.&lt;/p&gt;
+
+&lt;p&gt;I assume I’m not the only one who feels that way.&lt;/p&gt;
+
+&lt;h2 id=&quot;victim-of-usability&quot;&gt;Victim of Usability&lt;/h2&gt;
+&lt;p&gt;Of course, Trustpilot provides a service to online businesses, not the reviewers, who are the product. Trustpilot will manage the database of reviews instead of the retailer, and claim to maintain the integrity of the reviews, though, I feel that the process of adding a review reduces my confidence that they have a balanced view of anything. Trolls and fake reviews are an obvious problem, but to address that, there’s now a risk for the reviewer if they have a data breach. Is it a fair expectation that I, the user of a online coffee retailer’s website, would trust this entire network of actors to behave in my best interest?&lt;/p&gt;
+
+&lt;p&gt;An article by Coulton &amp;amp; Lindley&lt;label for=&quot;sn-id-coulton-lindley&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-coulton-lindley&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Coulton, P., &amp;amp; Lindley, J. G. (2019). More-Than Human Centred Design: Considering Other Things. The Design Journal, 22(4), 463–481. DOI: &lt;a href=&quot;https://doi.org/10.1080/14606925.2019.1614320&quot; target=&quot;_blank&quot;&gt;10.1080/14606925.2019.1614320&lt;/a&gt; &lt;/span&gt; describes the case of a smart TV that was selling data logged from users to a third party. This, of course, wasn’t the problem&lt;label for=&quot;sn-id-totally-the-problem&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-totally-the-problem&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;it &lt;em&gt;totally&lt;/em&gt; is a problem, but that is soooo not how the TV manufacturers see it… &lt;/span&gt;—the actual problem was that they had no right to do so. It &lt;em&gt;should&lt;/em&gt; have been part of the TV’s license agreement but wasn’t. These agreements, as Coulton &amp;amp; Lindley suggest, are made so “usable” that the user ends up with diminished agency, being steered towards something they probably don’t &lt;em&gt;really&lt;/em&gt; want to do: sell their data to third parties, without making &lt;a href=&quot;https://www.tomsguide.com/how-to/stop-your-snooping-smart-tv-how-to-turn-off-data-collection-for-every-brand&quot; target=&quot;_blank&quot;&gt;the process of opting-out&lt;/a&gt; equally as “usable.” As a researcher, my inclination is that this does not actually constitute &lt;em&gt;informed&lt;/em&gt; consent.&lt;/p&gt;
+
+&lt;p&gt;This isn’t just an academic discussion. Part of the point that Coulton &amp;amp; Lindley make is that the speed at which we expect interaction to happen is one source of issues for users. I have not unboxed a new TV that often, but in my limited experience, I was not excited about doing a deep-dive on EULAs, or even thinking about my privacy, because it’s a TV, it &lt;em&gt;receives&lt;/em&gt; the signal, DUH! So my, and probably your, TV is selling viewing data&lt;label for=&quot;sn-id-ads&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-ads&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;because, of course, targeted ads are what I want to get out of it, right? &lt;/span&gt; while at the same time sweeping the user through a consent process that they probably don’t understand, or care to pay attention to. They manufacturer won’t remind the user that the TV aggregates their data, and say at a more convenient time “do you still wanna do this, to let us sell this data collected using a TV you paid for?” Doesn’t sound like a good idea when you say it like that though…&lt;/p&gt;
+
+&lt;h2 id=&quot;but-we-do-need-usability&quot;&gt;But we do need Usability&lt;/h2&gt;
+&lt;p&gt;I was asked to give a guest lecture to introduce basic principles of interaction design to a class of Biomedical Engineering students. I’ve given this lecture a few years running now and it’s pretty easy to deliver, but I had other things on in the morning, and wanted a convenient dose of caffeine before the class. I went to one of the vending machines on campus that I have used before, tapped my card, and went to key in the number of the (sugar-free) soft drink&lt;label for=&quot;sn-id-drink&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-drink&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;soda, fizzy drink, etc. &lt;/span&gt; that I wanted. Before I could enter the number, down fell an mango-flavoured aloe drink. There didn’t seem to be anyone else around, I hadn’t lined up behind anyone, but the previous user’s input was still stored in the interface. Who knows how long it has been since someone wanted to know the cost of that drink, but not purchased it?&lt;/p&gt;
+
+&lt;p&gt;In my defence, these vending machines are relatively new, and the modularised format means that the interface for paying is completely separate from the interface for selecting a beverage, rather than integrated. However, preferring speed of interaction over the system’s confidence of what I want means that the error cost me what I wanted, and was a frustrating experience, something you never want in a user interface. It would be reasonable to have a confirmation if the product was selected before payment, and reduce the risk of this error, as a slip here takes my money away.&lt;/p&gt;
+
+&lt;h3 id=&quot;can-we-just-slow-down-a-little&quot;&gt;Can we just slow down a little?&lt;/h3&gt;
+&lt;p&gt;Fortunately, as I was about to give a lecture about fundamentals of usability evaluations, it was a helpful analogy. The sugar crash&lt;label for=&quot;sn-id-sugar&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-sugar&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;there is a LOT more sugar in those drinks than you may expect &lt;/span&gt; wasn’t as helpful as the caffeine boost I wanted, but the frustration at this stupid machine carried me through the lecture.&lt;/p&gt;
+
+&lt;p&gt;The latest concerning technology trend I have noticed is cameras on self-serve supermarket checkout systems that capture the face of the customer as they use the system. I don’t recall consenting to being recorded, though there’s no assumed privacy in a supermarket, so consent isn’t explicitly needed. Again, I do not trust these big companies to act in my best interest, as they already collect a lot of data about us through rewards programs, and probably other means. As there are examples of all kinds of data that are used about shoppers&lt;label for=&quot;sn-id-target&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-target&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;such as described in this Forbes.com article: &lt;a href=&quot;https://www.forbes.com/sites/kashmirhill/2012/02/16/how-target-figured-out-a-teen-girl-was-pregnant-before-her-father-did/?sh=5f9717ee6668&quot; target=&quot;_blank&quot;&gt;How Target Figured Out A Teen Girl Was Pregnant Before Her Father Did&lt;/a&gt; &lt;/span&gt;, and I’m comfortable assuming they are using the images for more than stopping shoplifting or “magically” speeding up the checkout process by having another camera on the food that’s being scanned. How do I know if they’re not also seeing whether I bring a reusable bag from Coles into Woolworths, and adding that to a profile they have on me, or whether they’re reading a brand on my shirt or hat? Again, this pushes consequences (particularly lack of privacy and discomfort) onto the user, in order to deal with symptoms of problems (maybe shoplifting?), rather than addressing those problems themselves.&lt;/p&gt;
+
+&lt;p&gt;The supermarket chains don’t seem to have any policy about the use of footage, based on a quick search&lt;label for=&quot;sn-id-itshouldbeeasy&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-itshouldbeeasy&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;I maintain that it should not difficult to find. &lt;/span&gt; &lt;a href=&quot;https://thenewdaily.com.au/life/tech/2020/06/15/supermarket-cameras-self-serve/&quot; target=&quot;_blank&quot;&gt;though they claim not to record the data&lt;/a&gt;. In contrast, I noticed a lot of CCTV cameras at a park in my local council area today while walking my dog. However, at these are governed by some kind of policy that is very simple to find online. I’m not saying I’m stoked about being filmed in a public park, but at least I can access information about how it is used and that someone has at least thought about it, and there is some respect for me as a human being. Supermarkets need some consideration of the actual user—I mean person—and their privacy, to make it clear why they being filmed, why and how it’s stored or used. Additionally, It’s reasonable to feel that a public park is more risky than a supermarket, especially, say, at night, so the CCTVs in that public space &lt;em&gt;may&lt;/em&gt; give some people a greater sense of confidence or safety. Or maybe not. However, targeted surveillance in a supermarket checkout seems to treat me like a criminal, rather than offer some feeling of protection.&lt;/p&gt;
+
+&lt;h2 id=&quot;balancing-usability&quot;&gt;Balancing Usability&lt;/h2&gt;
+&lt;p&gt;Usability isn’t a quick process, it takes time to do well, and there are is always a trade-off to make. It seems that in a lot of cases designers weren’t able or willing to make a strong enough case for the value that comes from good usability. I can identify this, as I have had this challenge even in research projects. Unless people learn the benefit and importance of thinking about usability, they probably won’t. However, in some cases it seems that Coulton &amp;amp; Lindley are right in suggesting that usability creates a screen to hide less-than-good intentions of corporations from the end-users (aka people).&lt;/p&gt;
+
+&lt;p&gt;This makes me question usability itself. Is it Good for usability to rush us through interactions that carry risk, even minor inconvenience? Is it really ethical for usability to be a mask for bad intentions? As designers, can the decision to hide away diminished rights to privacy and agency ever be justified in the name of the &lt;em&gt;ease of interaction&lt;/em&gt;? And do designers even have a say in these processes? Anyone could tell a story about a usability failure, so it’s not being applied well every time.&lt;/p&gt;
+
+&lt;p&gt;The design industry is successful when it makes good designs. Newness is nice, but not essential—the iPod wasn’t the first mp3 player, but it was a really good one. In design research, we are, by definition, focused on novelty. However, creating “capital-g” &lt;em&gt;Good&lt;/em&gt; design should be what we have in common, and might be something that industry could learn from us researchers (who of course have all the time in the world…). Perhaps it’s time to slow both interfaces and the design process down, so that speed-focused usability don’t act as a screen that prevents people from making informed decisions about the products they choose and the data they share, makes them feel stupid for having difficulty with seemingly simple tasks, or assumes that users are fine with handing over any or all information about themselves without question.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 21 May 2022 00:00:00 +1000</pubDate>
+        <link>https://philgough.github.io/articles/22/Is-usability-a-problem</link>
+        <guid isPermaLink="true">https://philgough.github.io/articles/22/Is-usability-a-problem</guid>
+        
+        
+        <category>Design</category>
+        
+        <category>Usability</category>
+        
+        <category>Opinion</category>
+        
+        <category>Rant</category>
+        
+      </item>
+    
+      <item>
+        <title>Co-Designing Technology Probes</title>
+        <description>&lt;figure class=&quot;fullwidth&quot;&gt;&lt;img src=&quot;/assets/codesign-tech-probes/teaser_web.jpg&quot; /&gt;&lt;figcaption&gt;&lt;em&gt;Tangible Feelings&lt;/em&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Technology probes are useful design research tools&lt;/span&gt;  that help us understand how people decide to use something we design. With my colleagues at the &lt;a href=&quot;https://design.sydney.edu.au/research/affectiveinteractions/&quot; target=&quot;_blank&quot;&gt;Affective Interactions Lab&lt;/a&gt; we published a paper on this at the OzCHI conference&lt;!--more--&gt;&lt;label for=&quot;sn-id-reference&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-reference&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Gough, P., Kocaballi, A.B., Naqshbandi, K., Cochrane, K., Mah, K., Pillai, A.,  Deny, A., Yorulmaz, Y., Ahmadpour, N. (2021). Co-designing a Technology Probe with Experienced Designers. ACM OzCHI ’21, 30 Nov.–03 Dec., 2021. &lt;a href=&quot;https://www.researchgate.net/publication/356194790_Co-designing_a_Technology_Probe_with_Experienced_Designers&quot; target=&quot;_blank&quot;&gt;Preprint Online&lt;/a&gt; &lt;/span&gt; this year, which looks at our experience designing a technology probe for a project we call &lt;em&gt;Tangible Feelings.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;This paper was awarded Best Paper at the &lt;a href=&quot;http://ozchi.org&quot; target=&quot;_blank&quot;&gt;ACM OzCHI 2021 conference&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;technology-probes-and-reflection&quot;&gt;Technology Probes and Reflection&lt;/h2&gt;
+&lt;p&gt;Technology Probes are used in design research to understand how a user will choose to interact with an object. It might be something tangible, but could also be a piece of software. It’s roots are in design probes and cultural probes, like those discussed by Bill Gaver&lt;label for=&quot;sn-id-gaver&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-gaver&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Bill Gaver, Tony Dunne, and Elena Pacenti. 1999. Design: Cultural probes. interactions 6, 1 (Jan./Feb. 1999), 21–29. DOI:&lt;a href=&quot;https://doi.org/10.1145/291224.291235&quot; target=&quot;_blank&quot;&gt;10.1145/291224.291235&lt;/a&gt; &lt;/span&gt; that included notebooks and cameras and other tools to record how people interacted with the world. The point of technology probes is to design a piece of technology, give it to someone and find out how they choose to use it over time, maybe a few days, weeks or months. This research will have a small cohort of users/participants, but they will give you really rich data about their interactions with your design.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-we-did&quot;&gt;What we did&lt;/h2&gt;
+
+&lt;p&gt;We ran a small user study with a technology probe, which gave us some interesting results, and then ran workshop with designers to see how the technology probe could be designed. These were both included in the paper.&lt;/p&gt;
+
+&lt;h3 id=&quot;user-study&quot;&gt;User study&lt;/h3&gt;
+
+&lt;p&gt;We started the project by deciding to create a device to help people reflect. On their day, on their lives, etc. Reflection is normal and natural, but we wanted something that would help people &lt;em&gt;come to a point when they are ready to reflect.&lt;/em&gt; People don’t spontaneously reflect, so a piece of technology might be able to help someone prepare themselves. Also, reflection itself is a process, rather than an outcome&lt;label for=&quot;sn-id-boud&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-boud&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;see: David Boud, Rosemary Keogh, and David Walker. 1985. Promoting reflection in learning: A model. In Reflection: &lt;em&gt;Turning Experience into Learning&lt;/em&gt; (1st ed.). Routledge, London &amp;amp; New York, Chapter 1, 18–40. &lt;/span&gt;, so technology might be able to facilitate the kind of reflection that could lead to personal improvement, or behaviour change. At this stage of the project, we are looking at how people would actually interact with a device to help them reflect.&lt;/p&gt;
+
+&lt;p&gt;We prepared a probe package, to give to users. This technology probe was interactive, it had LEDs that would show your heartbeat as a point of focus. The process I used to create the probe itself was to mock up a cardboard model for scale, use plasticine to mould the form, which was then 3D scanned and printed. A shelled version was used in the interactive version, with a &lt;a href=&quot;https://pulsesensor.com&quot; target=&quot;_blank&quot;&gt;pulse sensor&lt;/a&gt;, an Arduino Nano and some addressable LED rings.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;/assets/codesign-tech-probes/probepack.jpg&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;The probe package we originally gave to users, put together by our co-author (Kornita Deny) as part of her masters research&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;The result of this study was that our ideas for a point of focus turned out to be a distraction. There was also room to improve the design of the technology probe itself. But this is a key point about design probes: they’re not often subject to the “normal” process of iterative design. The researcher gives the technology probe to the users, as-is. So if there’s usability issues, they can potentially impact the use of the technology. This is was the case for us, as we were designing a hand-held object.&lt;/p&gt;
+
+&lt;h3 id=&quot;design-workshop-with-designers&quot;&gt;Design workshop with designers&lt;/h3&gt;
+
+&lt;p&gt;So, rather than doing an entire user study to solve the usability issues, we gave a group of experienced designers&lt;label for=&quot;sn-id-experiencedesigners&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-experiencedesigners&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;the designers were researchers and practicing designers who are associated with our lab in some way &lt;/span&gt; a chance to live with a “blank” (i.e. non-interactive, solid, 3D printed) version of the object we had designed for a few days. They were given a package with the 3D printed probe, markers and plasticine and materials, an instruction book with a link to a guided breathing exercise. After a few days the designers had familiarised themselves with using the probe to reflect.&lt;/p&gt;
+
+&lt;p&gt;We ran a workshop that focused on discussing how the designers felt that they could transform the probe. They wrote a short statement that was &lt;a href=&quot;https://www.researchgate.net/publication/356194790_Co-designing_a_Technology_Probe_with_Experienced_Designers&quot; target=&quot;_blank&quot;&gt;included in the paper&lt;/a&gt; that outlines their background or &lt;em&gt;positionality&lt;/em&gt; as a designer, and how they would change or improve the design of the object.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;/assets/codesign-tech-probes/workshop.jpg&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;The workshop was a great way to generate new ideas.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;what-we-found&quot;&gt;What we found&lt;/h2&gt;
+
+&lt;p&gt;There were five possible directions proposed by the workshop participants, which were influenced by their positionality. This worked because the probe had an objective (help people reflect) and a basic form, with its own affordances, but was fairly open-ended in the way that the user could possibly interact with the probe. Each of the designers used this open-endedness with their own experience to come up with something unique.&lt;/p&gt;
+
+&lt;p&gt;This makes sense to me: my background working with people in health, and doing in research with data visualisation influenced the original design of the probe to include biofeedback as a point of reflection.&lt;/p&gt;
+
+&lt;h2 id=&quot;so-what&quot;&gt;So what?&lt;/h2&gt;
+
+&lt;p&gt;There’s two things to take away. First, as we say in the paper:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;By creating an environment that represents a diverse group of designers from a range of design philosophies, with different abilities, socio-technical, political and cultural backgrounds, it is possible to increase our chances of producing complex and multifaceted outcomes.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;More variation in the positionality of the designers lead us to more interesting outcomes and ideas. This is fed by an appropriate amount of openness for the designers to work in. I don’t think it would have been successful if there was a stipulation for the device to be interactive, or to have biofeedback, like the original concept had.&lt;/p&gt;
+
+&lt;p&gt;Second, this is a generative method, a way of producing concepts and ideas that can be further explored. Our approach was related to technology probes for reflection, but we don’t see why it couldn’t be used in other contexts.&lt;/p&gt;
+
+&lt;p&gt;Technology probes are an interesting area for research. I’m particularly interested in exploring how we can combine co-design and biodesign to create technology probes, but there will be many more facets of the &lt;em&gt;Tangible Feelings&lt;/em&gt; project to come.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 11 Dec 2021 00:00:00 +1100</pubDate>
+        <link>https://philgough.github.io/articles/21/co-designing-technology-probes</link>
+        <guid isPermaLink="true">https://philgough.github.io/articles/21/co-designing-technology-probes</guid>
+        
+        
+        <category>Publication</category>
+        
+        <category>HCI</category>
+        
+      </item>
+    
+      <item>
+        <title>Anthroporgenic Biology (a speculative scenario)</title>
+        <description>&lt;p&gt;It was a windy day outside, the breeze on the side of Iris’ face was starting to become distracting.&lt;!--more--&gt; She reached over from her office chair and swiped her finger down the biofilm beside the window&lt;label for=&quot;sn-id-biofilms&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-biofilms&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Engineered Biofilms could be made from bacteria that have modified DNA. Some opportunities are discussed in a &lt;em&gt;Nature Reviews&lt;/em&gt; article (&lt;a href=&quot;https://doi.org/10.1038/s41578-020-00265-w&quot;&gt;DOI: 10.1038/s41578-020-00265-w&lt;/a&gt;). An article in &lt;em&gt;Sensors&lt;/em&gt; talks about biofilms specifically for sensing (&lt;a href=&quot;https://doi.org/10.1021/acssensors.7b00418&quot;&gt;DOI: 10.1021/acssensors.7b00418&lt;/a&gt;) &lt;/span&gt;. It felt smooth, but cool as the brick wall it covered. The flow of air stopped abruptly as the window closed. Nothing had moved, but minuscule holes in the transparent biofilm window had closed. Iris is an AI technician. She oversees simulations of scientists’ idealistic visions of new proteins and helps to translate them into reality&lt;label for=&quot;sn-id-aiproteins&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-aiproteins&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;According to an article on Nature.com (&lt;a href=&quot;http://www.nature.com/articles/d41586-020-03348-4&quot;&gt;DOI: 10.1038/d41586-020-03348-4&lt;/a&gt;): &lt;/span&gt;&lt;label for=&quot;mn-id-quote&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mn-id-quote&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;“The ability to accurately predict proteins’ structures from their amino-acid sequences would be a huge boon to life sciences and medicine” &lt;/span&gt;. She saw in her mind what was happening with the window, though most people wouldn’t give it a second thought.&lt;/p&gt;
+
+&lt;p&gt;Iris rolled her eyes a moment later as the cold air from the air conditioning hit the skin on her other side.&lt;/p&gt;
+
+&lt;p&gt;“O-home,” she said, a patch on the wall started to glow softly in anticipation “why did you do turn on the a/c?” she asked the AI assistant that lived in the walls of her apartment. There was a brief, but too-long pause before the reply as a server somewhere computed an answer. The Open-Home project AI was never as quick as the commercial software when it had to process a response.&lt;/p&gt;
+
+&lt;p&gt;“The internal temperature is above 24° so I turned on cool air–do you wish to change the thermostat setting?”&lt;/p&gt;
+
+&lt;p&gt;“No.” Another pregnant pause from the AI.&lt;/p&gt;
+
+&lt;p&gt;“OK. If you wish to change automation settings, you can use any Open-home panel.”&lt;/p&gt;
+
+&lt;p&gt;Iris took off a slipper and launched it it like a paper aeroplane towards the entrance to her home office. It hit the invisible biofilm panel beside the door, the solid tap notifying the AI assistant that it was time for it to stop talking. It was too late though, once you break your flow (or your AI assistant decides your flow is broken) your home notifications are turned back on. She could update that setting later, one of the advantages of installing an open-source home assistant.&lt;/p&gt;
+
+&lt;p&gt;“You have three new emails, none of which are marked important.” O-home said, “and I have added bread to your shopping list.”&lt;/p&gt;
+
+&lt;p&gt;Thinking that was odd, and since her mental flow was long gone now, she went to the kitchen, reacquiring her slipper on the way. She was sure she had bread, and she definitely needed coffee.&lt;/p&gt;
+
+&lt;p&gt;She opened her cupboard and saw the bread bag was glowing red the ultraviolet LEDs in her cupboard made the bag glow&lt;label for=&quot;sn-id-glowbag&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-glowbag&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Engineering &lt;em&gt;E.coli&lt;/em&gt; to detect mycotoxins (from mould) and fluoresce was presented at an &lt;a href=&quot;http://2013.igem.org/Team:TU_Darmstadt/problem&quot;&gt;iGEM competition entry in 2013 from TU Darmstadt&lt;/a&gt; &lt;/span&gt;. Mould, probably not safe to eat any more. She picked up the bag and looked at the bread inside. It looked fine, she couldn’t see anything growing. But the red colour on the packaging indicated that the mould was already growing through the food. She sighed and placed the bread on the garbage chute and it started glowing again. An invisible camera (probably in the ceiling) made from a dense lensing patch of photosensitive biofilm saw the red glow. The garbage cover opened towards the appropriate chute and the bread disappeared.&lt;/p&gt;
+
+&lt;p&gt;Iris started her coffee machine on its little ritual. The panel next to the kitchen window was bright green, like some kind of slime. A home system like this needed to be taken care of–it needed food too. Iris’ apartment block was pretty new, so it the system was built in, rather than retro-fitted. The designers of the used green, she guessed, to remind people that it’s alive. She reached under the kitchen sink and took out a small spray bottle, with a generic brand nutrient-rich broth and sprayed it onto the green patch. The liquid was absorbed into the biofilm before it started to run down the wall. As the green colour faded a message was left behind:&lt;/p&gt;
+
+&lt;p&gt;“Castle Homes&lt;sup&gt;TM&lt;/sup&gt; recommends NutriTech&lt;sup&gt;TM&lt;/sup&gt; supplement for your integrated biohome system”&lt;/p&gt;
+
+&lt;p&gt;Anthropogenic biology at its finest, bacteria in the biofilm advertising at you. In your own home. The microscopic assholes. The text faded away, and the wall again looked like there was nothing there, no technology, no computer. It was only if you looked at just the right angle could you see a reflection from the shiny surface of the biofilm.&lt;/p&gt;
+
+&lt;p&gt;The coffee machine finished and Iris took the drink back to her office and sat down. One simulation had finished successfully, AI models used to generate proteins still took a while to run. There was a new ticket from a scientist that had been assigned to her. The information fields described novel protein, ordered from an oncologist, which would bind to a specific marker for a specific type of cancer cell, making it blindingly obvious to the body’s immune system. The protein would eventually be manufactured by an army of bacteria, running custom DNA, using up to 10 base-pairs&lt;label for=&quot;sn-id-dnabasepairs&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-dnabasepairs&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Hachimoji DNA with 8 amino acid “letters” is described in a &lt;em&gt;Science&lt;/em&gt; article (&lt;a href=&quot;https://doi.org/10.1126/science.aat0971&quot;&gt;DOI: 10.1126/science.aat0971&lt;/a&gt;) and summarised in &lt;a href=&quot;https://www.wired.com/story/doubling-our-dna-building-blocks-could-lead-to-new-life-forms/&quot;&gt;this Wired post&lt;/a&gt;. &lt;/span&gt; to create this entirely synthetic protein to hook onto a specific kind of cancer cell and broadcast its cancerous-ness to the body.&lt;/p&gt;
+
+&lt;p&gt;Iris looked out the window and thought about this, and her part in it. She reached over and tapped the biofilm patch twice. Microscopic holes all over the window, opened to 20% of their maximum. The refraction of the light changed slightly as it passed through, and the breeze returned. Iris turned to her screen and reviewed the protein design as she sipped her coffee.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 03 Oct 2021 00:00:00 +1000</pubDate>
+        <link>https://philgough.github.io/articles/21/Anthroporgenic-Biology</link>
+        <guid isPermaLink="true">https://philgough.github.io/articles/21/Anthroporgenic-Biology</guid>
+        
+        
+        <category>Biodesign</category>
+        
+        <category>Speculative Fiction</category>
+        
+        <category>AI</category>
+        
+      </item>
+    
+      <item>
+        <title>Prototyping Biodesign</title>
+        <description>&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;When, if at all, will Synthetic Biology be like  electronics?&lt;/span&gt;  As a designer, I don’t &lt;em&gt;have&lt;/em&gt; to know anything about silicon chip physics to prototype electronic devices.&lt;!--more--&gt; I don’t even have to know circuit theory to create an interactive electronic device. With platforms such as the BBC Microbit plus the Grove inventor kit, or the littleBits system&lt;label for=&quot;sn-id-MBandGrove&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-MBandGrove&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Check &lt;a href=&quot;https://microbit.org&quot; target=&quot;_blank&quot;&gt;the BBC Microbit Website&lt;/a&gt;, &lt;a href=&quot;https://seeeddoc.github.io/Grove_System/&quot; target=&quot;_blank&quot;&gt;Seeed wiki for Grove System&lt;/a&gt; and &lt;a href=&quot;https://sphero.com/pages/littlebits&quot; target=&quot;_blank&quot;&gt;littleBits&lt;/a&gt; sites. &lt;/span&gt;, prototyping with electronics hardware is accessible without knowing circuit theory beyond the most simple understanding. The BBC Microbit allows someone with enough digital literacy to use &lt;a href=&quot;https://makecode.microbit.org&quot; target=&quot;_blank&quot;&gt;Microsoft’s visual programming language, MakeCode&lt;/a&gt; to make some pretty impressive prototypes of interactive systems, especially when paired with a breakout board like the with the Grove inventor kit&lt;label for=&quot;sn-id-GroveLibs&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-GroveLibs&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;If you happen to have one of these kits, I have a &lt;a href=&quot;https://github.com/philgough/grove_pygestures&quot; target=&quot;_blank&quot;&gt;github repository with libraries for use with Microbit/MicroPython/Mu&lt;/a&gt; &lt;/span&gt;.&lt;/p&gt;
+
+&lt;p&gt;I am not the kind of person who would ever advocate for having less knowledge. Having taught Physical Computing in an interaction design course (capital D IXD), it’s important to understand the basics of how electronic systems work. The question is how much knowledge is enough to allow us to design effectively. Did my class need to know about basics of voltage, resistance and power? Sure. Did they need to know how a transistor works at a physical level? To &lt;em&gt;prototype&lt;/em&gt; interactive systems, no, they don’t. They need to know how the interactive system collects, and processes data from a sensor, and maps that to some kind of output. But they do this successfully without understanding how a variable resistor works, because the kit we used had one way to plug it in, and one way to read the data. The design students also were able to use these systems to evaluate the interactions with the system. When there’s more than one way to plug the electronic part in (I’m looking at you, &lt;a href=&quot;https://wiki.seeedstudio.com/Grove-LED_Socket_Kit/&quot; target=&quot;_blank&quot;&gt;Grove LED socket&lt;/a&gt;!) it causes problems for novices*&lt;label for=&quot;mn-id-LEDs&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mn-id-LEDs&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;em&gt;the LED socket *does&lt;/em&gt; come with an LED that has legs trimmed to equal length… and over a zoom tutorial, it’s difficult to describe which edge is flattened. Long live NeoPixels! &lt;/span&gt;. Designers need some knowledge, to communicate with an electrical engineer and/or software developer, but the designers can build and test prototypes with off-the-shelf kits. If we we want to compare prototyping interactive electronics with interactive synthetic biology, the question is worth asking:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;How much biology will a designer need to know, in order to prototype with synthetic biology?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In a similar vein to the maker movement, &lt;a href=&quot;https://www.forbes.com/sites/fernandezelizabeth/2019/09/19/yes-people-can-edit-the-genome-in-their-garage-can-they-be-regulated/&quot; target=&quot;_blank&quot;&gt;there’s a biohacker culture emerging&lt;/a&gt;. Perhaps over time it will bild the same kind of community as a platform such as &lt;a href=&quot;http://arduino.cc&quot; target=&quot;_blank&quot;&gt;Arduino&lt;/a&gt;, or the numerous desktop 3D printing systems, which evolved from the earliest robotic prototypes in 1984&lt;label for=&quot;sn-id-3dprint&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-3dprint&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;See Horvath, J. (2014). &lt;a href=&quot;https://doi.org/10.1007/978-1-4842-0025-4_1&quot; target=&quot;_blank&quot;&gt;A Brief History of 3D Printing&lt;/a&gt;. &lt;/span&gt;. Today, you can purchase DIY kits allow CRISPR Gene editing at home. So it’s not unreasonable to imagine that one day there will be a designer who will want to prototype with some kind of off-the-shelf synthetic biology kit. What do designers need to know about biology?&lt;/p&gt;
+
+&lt;h2 id=&quot;ethics&quot;&gt;Ethics&lt;/h2&gt;
+&lt;p&gt;First and foremost, design needs to develop a set of ethics and principles of working with living things. An introduction to Bioethics would be a good start. Basil Varkey describes 4 principles of bioethics:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Beneficence, nonmaleficence, autonomy, and justice constitute the 4 principles of ethics. The first 2 can be traced back to the time of Hippocrates “to help and do no harm,” while the latter 2 evolved later&lt;label for=&quot;sn-id-bioethics&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-bioethics&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;p.18 of Varkey2020, &lt;a href=&quot;https://doi.org/10.1159/000509119&quot; target=&quot;_blank&quot;&gt;open access article here&lt;/a&gt;. &lt;/span&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The DIYBio community has also produced two &lt;a href=&quot;https://diybio.org/codes/&quot; target=&quot;_blank&quot;&gt;sets of ethics codes&lt;/a&gt; in 2011 from congresses in Europe and USA. These lists define what DIYBio is, and acting outside these principles rejects the community.&lt;/p&gt;
+
+&lt;p&gt;Designing with synthetic biology can learn from the DIYBio ethics and bioethics principles.&lt;/p&gt;
+
+&lt;h2 id=&quot;collaboration&quot;&gt;Collaboration&lt;/h2&gt;
+&lt;p&gt;The scientific method as students learn it is a cycle of observation, research, hypothesis, testing, analysis and communication. 
+&lt;label for=&quot;mf-id-science&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-science&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/The_Scientific_Method.svg/1920px-The_Scientific_Method.svg.png&quot; /&gt;&lt;br /&gt;The scientific Method, via &lt;a href=&quot;https://en.wikipedia.org/wiki/Scientific_method#/media/File:The_Scientific_Method.svg&quot;&gt;wikimedia&lt;/a&gt;&lt;/span&gt;
+However, the reality is that since science is also dealing with more messy (or &lt;a href=&quot;https://direct.mit.edu/posc/article/28/4/482/97500/Mess-in-Science-and-Wicked-Problems&quot; target=&quot;_blank&quot;&gt;wicked&lt;/a&gt;) problems than the scientific method implies. This provides an interesting opportunity for collaboration between science and design.&lt;/p&gt;
+
+&lt;h2 id=&quot;prototyping&quot;&gt;Prototyping&lt;/h2&gt;
+&lt;p&gt;If I want to make a prototype of an interactive device, I will use a generally programmable microcontroller. I have recently been introduced to the &lt;a href=&quot;https://www.adafruit.com/category/943&quot; target=&quot;_blank&quot;&gt;Adafruit Feather&lt;/a&gt; platform. It’s great: small, cheap, flexible. I can design interactions, program the device, evaluate prototypes, test with users, all the stuff I need to do to support my design process. This is particularly relevant as a design researcher, as I want to be able to reuse hardware for another project. However, if the product is going to go into production, it will be run on a custom PCB.&lt;/p&gt;
+
+&lt;p&gt;Designers prototyping with Synthetic Biology can also use approaches such as &lt;a href=&quot;https://medium.com/the-31-5-guy/the-wizard-of-oz-prototyping-technique-9d8366cd7692&quot; target=&quot;_blank&quot;&gt;&lt;em&gt;Wizard of Oz&lt;/em&gt; method&lt;/a&gt;, using digital systems to mimic some of the output that might be produced with synthetic biology. If a bacteria is engineered to glow in response to an environmental stimulus, this is easy to mimic with a microcontroller in order to allow for user testing. There are limitations to these opportunities, as bacteria can efficiently create other kinds of output, such as compounds we detect as scent, that may be more challenging to recreate with an electronic mockup.&lt;/p&gt;
+
+&lt;h2 id=&quot;final-thought&quot;&gt;Final Thought&lt;/h2&gt;
+&lt;p&gt;Science, particularly synthetic biology, and design have a lot to offer each other. There is a need for a code of ethics within biodesign as designers start to work with synthetic biology systems. This can be built on top of bioethics and DIYBio. Design also works with messy, intractable and wicked problems, and has many ways of working in this space and can help science navigate this problem space, to draw on the strengths of both fields.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 20 Sep 2021 00:00:00 +1000</pubDate>
+        <link>https://philgough.github.io/articles/21/Prototyping-Biodesign</link>
+        <guid isPermaLink="true">https://philgough.github.io/articles/21/Prototyping-Biodesign</guid>
+        
+        
+        <category>Biodesign</category>
+        
+        <category>Prototyping</category>
+        
+        <category>Opinion</category>
+        
+      </item>
+    
+      <item>
+        <title>Hello</title>
+        <description>&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;I decided to start a blog. &lt;/span&gt;  I’ve been convinced by &lt;a href=&quot;http://lizgilleran.com&quot; target=&quot;_blank&quot;&gt;Liz Gilleran&lt;/a&gt; that it’s a worthwhile use of my time.&lt;!--more--&gt;  If you are interested in design, you should give her blog a read! Liz gave an inspiring talk at the &lt;a href=&quot;http://visualisation.matters.today/2021/&quot; target=&quot;_blank&quot;&gt;Visualisation Matters&lt;/a&gt; symposium, which I enjoyed.&lt;/p&gt;
+
+&lt;h2 id=&quot;about-me&quot;&gt;About me&lt;/h2&gt;
+&lt;p&gt;I suppose might introduce myself. I earned my PhD from USYD in the Design Lab, now referred to as the discipline of Design at ADP. I’m now lecturing there, via a few roles in other unis, organisations and faculties. You can check out the discipline’s research at &lt;a href=&quot;design.sydney.edu.au&quot; target=&quot;_blank&quot;&gt;https://design.sydney.edu.au&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I’m now working in Design at USYD, research and teaching. My area (and probably my next blog post) is Biodesign.&lt;/p&gt;
+
+&lt;p&gt;I haven’t had a “standard” start to my academic career at USYD. After my thesis I did a postdoc with the &lt;a href=&quot;https://www.sydney.edu.au/engineering/our-research/data-science-and-computer-engineering/human-centred-technology.html&quot; target=&quot;_blank&quot;&gt;Human Centred Technology&lt;/a&gt; group in School of Computer Science. Following this I worked in Faculty of Science in an educational innovation role. My thesis and my work in Science was focused on interdisciplinary art-design-science collaboration, and I was invited to join Design Lab to run the new &lt;a href=&quot;https://www.sydney.edu.au/courses/subject-areas/major/biological-design.html&quot; target=&quot;_blank&quot;&gt;Major in Biological Design&lt;/a&gt;*&lt;label for=&quot;sn-id-biodesign&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-biodesign&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;*Pronounced &lt;em&gt;biodesign&lt;/em&gt;, surely &lt;/span&gt;.&lt;/p&gt;
+
+&lt;p&gt;I’ve had the chance to work on projects in Data Visualsiation and Biodesign, but all focus on &lt;em&gt;interactions&lt;/em&gt; - the way we build and evaluate interactive things, mostly digital systems. The way a person sees a visualisation and wants to understand it, the way someone feels about a mushroom-based object in their home, the way an expert uses a decision support tool, the way someone might feel immersed in a VR experience. The interactions with different systems is where my research interest lies.&lt;/p&gt;
+
+&lt;p&gt;So, here I am. I have a blog now. My goal is to share some thoughts on design, research, life or whatever else this becomes.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 06 Sep 2021 00:00:00 +1000</pubDate>
+        <link>https://philgough.github.io/articles/21/Hello-World</link>
+        <guid isPermaLink="true">https://philgough.github.io/articles/21/Hello-World</guid>
+        
+        
+        <category>General</category>
+        
+      </item>
+    
   </channel>
 </rss>

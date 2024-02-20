@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.typekit.net/obd6gmq.css">
+    <title>Design, Mould, Grow!</title>
+    <meta name="description" content="Paper: Design, Mould, Grow!: A Fabrication Pipeline for Growing 3D Designs Using Myco-MaterialsThe challenge with designing with myco-materials is creating 3...">
+
+    <!-- Google Fonts loaded here depending on setting in _data/options.yml true loads font, blank does not-->
+    
+    <link href='//fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'> 
+
+    <!-- Load up MathJax script if needed ... specify in /_data/options.yml file-->
+    
+
+    <link rel="stylesheet" type="text/css" href=" /css/tufte.css ">
+    <!-- <link rel="stylesheet" type="text/css" href="/css/print.css" media="print"> -->
+
+  <!-- <link rel="canonical" href="https://philgough.github.io/articles/23/design-mould-grow"> -->
+
+  <!-- <link rel="alternate" type="application/rss+xml" title="Phil Gough's Personal Blog" href="https://philgough.github.io/feed.xml" /> -->
+
+  <link rel="icon" type="image/png" href="/assets/img/favicon.ico" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-V8F98TMC65"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-V8F98TMC65');
+</script>
+</head>
+
+  <body>
+    <!--- Header and nav template site-wide -->
+<header>
+    <nav class="group">
+	<a href="/"><img class="badge" src="/assets/img/badge_1.png" alt="CH"></a>
+	
+		
+		    
+		      <a href="/404.html"></a>
+		    
+	    
+  	
+		
+  	
+		
+		    
+		      <a href="/">blog</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/about/">About Me</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/publications/">Publications</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/categories/">Categories</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/css/print.css"></a>
+		    
+	    
+  	
+		
+  	
+		
+		    
+		      <a href="/sitemap.xml"></a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/robots.txt"></a>
+		    
+	    
+  	
+	</nav>
+</header>
+    <article class="group">
+      <h1>Design, Mould, Grow!</h1>
+<p class="subtitle">24 Sep 2023</p>
+<div class="post-categories">
+    
+    
+    <a href="/categories/#Publication">Publication</a>
+    -
+    
+    <a href="/categories/#Biodesign">Biodesign</a>
+    -
+    
+    <a href="/categories/#Myco-Materials">Myco-Materials</a>
+    
+    
+  </div>
+
+<figure class="fullwidth"><img src="/assets/design-mould-grow/spheres.png" /><figcaption>Paper: <em>Design, Mould, Grow!: A Fabrication Pipeline for Growing 3D Designs Using Myco-Materials</em></figcaption></figure>
+
+<p><span class="newthought">The challenge with designing with myco-materials is creating 3D forms,</span>  so we wrote a paper about the process and some software to help designers and HCI researchers.<!--more--> The paper was published at ACM CHI 2023<label for="sn-id-reference" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-reference" class="margin-toggle" /><span class="sidenote">Gough, P., Perera, P. B., <a href="https://www.sydney.edu.au/science/about/our-people/academic-staff/michael-kertesz.html" target="_blank">Kertesz, M. A.</a>, &amp; <a href="https://www.sydney.edu.au/engineering/about/our-people/academic-staff/anusha-withana.html" target="_blank">Withana, A.</a> (2023, April). Design, Mould, Grow!: A Fabrication Pipeline for Growing 3D Designs Using Myco-Materials. In <em>Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems</em> (pp. 1-15). DOI: <a href="https://dl.acm.org/doi/10.1145/3544548.3580958" target="_blank">10.1145/3544548.3580958</a>. </span> in Hamburg, Germany.</p>
+
+<p>Since this is a growing area (see what I did there?), there’s a lot of opportunity to contribute something new. Unlike some other biomaterials, such as SCOBY from kombucha, we haven’t been utilising fungi mycelium as a material for very long. Unlike farming the mushrooms, creating a myco-material requires that we are able to control the development of the fungi, make it think that it’s underground, so it doesn’t spend energy creating the fruiting body (the mushroom). There’s a lot of research around myco-materials, what we are calling materials made with trimitic fungi<label for="sn-id-trifungi" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-trifungi" class="margin-toggle" /><span class="sidenote">These fungi have 3 types of cells. The commonly used species seem to be Oyster, Turkeytail and Reishi </span> that bind together a woody substrate and can be dried to form new materials.</p>
+
+<p>Our paper has 3 key contributions: the growing process, characterisation of the material and concepts that utilise these properties, and the design tool.</p>
+
+<h2 id="growing-process">Growing Process</h2>
+
+<p>The first phase of learning to grow myco-materials was to work with biologists<label for="sn-id-mlmru" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-mlmru" class="margin-toggle" /><span class="sidenote">From the Marsh Lawson Mushroom Research Centre at USYD </span> who could help us understand the requirements for growing the mycelia by itself. We originally used sawdust from the workshop in my school, which was taken form the planer thicknesser machine. Fortunately for us, the extractor system can be arranged so that we got a clean material.</p>
+
+<p>With 2 rounds of tests, and lots of conditions (see the paper for the full description), what we really learned was how difficult it was to start from our own substrate–even with the substrate material being autoclaved in the biology lab. This higlighted the first challenge we needed to overcome: how can we (HCI researchers without specialised biology equipment) actually work with this material?</p>
+
+<p>The answer came from COVID lockdowns. Rather than working with our own material, while progressing the research, we purchased “grow it yourself” mushroom kits from an online supplier. These were grown by the pros, and the “target” mushroom was dominant in the little ecosystem. This is great for us, since we were able to start moulding the material, and we ended up with no problems with infection from “wild” mould after this.</p>
+
+<h2 id="material-and-concepts">Material and concepts</h2>
+
+<p><label for="mf-id-segment-iterations" class="margin-toggle">⊕</label><input type="checkbox" id="mf-id-segment-iterations" class="margin-toggle" /><span class="marginnote"><img class="fullwidth" src="/assets/design-mould-grow/closeups.png" /><br />Details of forms in myco-materials.</span></p>
+
+<p>The material itself has some interesting affordances, and we were able to grow into some detailed shapes using 3D printed moulds. We measured properties of the material and applied them to a few concepts. Some views of the details are on the right. It was quite impressive how well the mushroom was able to “render” a surface. We had our workshop help us out by 3D scanning a few objects, and we show that adding a coffee inclusion increases the accuracy of the mushroom’s ability to render detailed features. I assume it’s because the tiny coffee particles fit better into the corners of the mould.</p>
+
+<p>We found that the particular grow kits, with and without an inclusion of coffee grounds, were pretty consistent when drying - they reduced their size to 92% of the original mould (you can see this below). This means we can easily scale up our mould to have a final design.</p>
+
+<figure><img src="/assets/design-mould-grow/bunny-lineup.jpeg" /><figcaption class="maincolumn-figure">The mushroom bunny on the right isn&#8217;t as tall as the others, but partly because its ear broke when it was removed, and had to be pinned together with a toothpick</figcaption></figure>
+
+<p>The concepts are outlined in the paper, but we applied the elasticity of the material to growing a cup coaster with a thin film resistor inside, which could track water consumption during the day, it insulates heat quite well, so we made a takeway cupholder, and it decomposes, so we made a decorative potted plant holder, which could be consumed as the plant grows.</p>
+
+<h2 id="design-tool">Design tool</h2>
+
+<p>I have some experience with industrial design, so I was able to start by designing the negative mould for a final shape that I wanted. It was actually fun to step back into this role. However, my colleagues in computer science don’t have this background, so it was an interesting problem, and really goes back to our initial motivation. How could we make myco-materials more accessible for HCI? This includes people who want to make a housing for a computer system out of the material.</p>
+
+<p>We developed a Grasshopper plugin for Rhino, which is still being refined. It will generate mould designs for a given 3D model, and help the user identify planes that intersect the mould. These could be 3D printed. Our work since then has looked at how we could do away with the plastic 3D printing, and directly print the myco-material, but that’s a LOT more complicated.</p>
+
+<h2 id="the-takeaway">The Takeaway</h2>
+<p>From working on this project, I learned a lot about working with this unique material, as well as writing for CHI, of course, with this being my first lead-author publication at CHI.</p>
+
+<p>The most interesting thing for me is the way that the material expresses autonomy. The spheres at the top of the page were grown sequentially, in the same mould, in an incubator. As a designer, it’s interesting to me that they are all different: some are darker coloured, others are lumpy, some show the lines of the 3D printed moulds quite clearly. So control over the final appearance is relinquished from the designer, to the material itself, acting with its own agency.</p>
+
+<p>Myco-materials also remind me of the concept <em>wabi-sabi</em> — which from my reading of the topic<label for="sn-id-wabi-sabi" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-wabi-sabi" class="margin-toggle" /><span class="sidenote">See the short column, <em>Beautiful (Im)perfections Are Us</em> from ACM Interactions DOI:<a href="https://dl.acm.org/doi/10.1145/3555042" target="_blank">10.1145/3555042</a> </span> I interpret as: nothing is perfect, nothing is finished, nothing is permanent. I think there is beauty in the imperfection, the impermanence and lack of control that comes from partnering with a living material.</p>
+
+<h2 id="other-stuff">Other Stuff</h2>
+
+<p>This is a recording of the presentation given at CHI:</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/n9OHKAEEcJ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+
+<p>This is my first time attending CHI conference <em>in person</em>, which was exciting. Participating in ACM CHI been surprisingly complex with having to put together videos (which wasn’t clear in the early requirements), making sure PDFs are accessible etc. I’m very mindful of flying to Germany from Australia to present a paper that is related to sustainability, but we operate within the system that we have, and online attendance is not the same. I’m glad I was able to go and meet some amazing people in the HCI community, who I’m working with moving forward.</p>
+
+
+
+    </article>
+    <span class="print-footer">Design, Mould, Grow! - September 24, 2023 - Phil Gough</span>
+    <footer>
+  <hr class="slender">
+  <ul class="footer-links">   
+    
+      <li>
+        <a href="//www.twitter.com/dr_pjgough" target="_blank" class="no-ul-link"><span class="icon-twitter"></span></a>
+      </li>
+    
+      <li>
+        <a href="//scholar.google.com.au/citations?user=iyKmC4QAAAAJ&hl=en" target="_blank" class="no-ul-link"><span class="icon-google"></span></a>
+      </li>
+    
+      <li>
+        <a href="//github.com/philgough" target="_blank" class="no-ul-link"><span class="icon-github"></span></a>
+      </li>
+    
+      <li>
+        <a href="//www.linkedin.com/in/dr-pjgough/" target="_blank" class="no-ul-link"><span class="icon-linkedin"></span></a>
+      </li>
+    
+      <li>
+        <a href="//www.instagram.com/dr_pjgough" target="_blank" class="no-ul-link"><span class="icon-instagram"></span></a>
+      </li>
+      
+  </ul>
+<div class="credits">
+<span>&copy; 2024 &nbsp;&nbsp;PHIL GOUGH</span></br> <br>
+<span>This site created with the <a href="//github.com/clayh53/tufte-jekyll">Tufte theme for Phil Gough's blog </a> in <a href="//jekyllrb.com">Jekyll</a>.</span> 
+</div>  
+</footer>
+  </body>
+</html>

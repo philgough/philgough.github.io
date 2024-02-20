@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.typekit.net/obd6gmq.css">
+    <title>Prototyping Biodesign</title>
+    <meta name="description" content="When, if at all, will Synthetic Biology be like  electronics?  As a designer, I don’t have to know anything about silicon chip physics to prototype electroni...">
+
+    <!-- Google Fonts loaded here depending on setting in _data/options.yml true loads font, blank does not-->
+    
+    <link href='//fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'> 
+
+    <!-- Load up MathJax script if needed ... specify in /_data/options.yml file-->
+    
+
+    <link rel="stylesheet" type="text/css" href=" /css/tufte.css ">
+    <!-- <link rel="stylesheet" type="text/css" href="/css/print.css" media="print"> -->
+
+  <!-- <link rel="canonical" href="https://philgough.github.io/articles/21/Prototyping-Biodesign"> -->
+
+  <!-- <link rel="alternate" type="application/rss+xml" title="Phil Gough's Personal Blog" href="https://philgough.github.io/feed.xml" /> -->
+
+  <link rel="icon" type="image/png" href="/assets/img/favicon.ico" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-V8F98TMC65"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-V8F98TMC65');
+</script>
+</head>
+
+  <body>
+    <!--- Header and nav template site-wide -->
+<header>
+    <nav class="group">
+	<a href="/"><img class="badge" src="/assets/img/badge_1.png" alt="CH"></a>
+	
+		
+		    
+		      <a href="/404.html"></a>
+		    
+	    
+  	
+		
+  	
+		
+		    
+		      <a href="/">blog</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/about/">About Me</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/publications/">Publications</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/categories/">Categories</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/css/print.css"></a>
+		    
+	    
+  	
+		
+  	
+		
+		    
+		      <a href="/sitemap.xml"></a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/robots.txt"></a>
+		    
+	    
+  	
+	</nav>
+</header>
+    <article class="group">
+      <h1>Prototyping Biodesign</h1>
+<p class="subtitle">20 Sep 2021</p>
+<div class="post-categories">
+    
+    
+    <a href="/categories/#Biodesign">Biodesign</a>
+    -
+    
+    <a href="/categories/#Prototyping">Prototyping</a>
+    -
+    
+    <a href="/categories/#Opinion">Opinion</a>
+    
+    
+  </div>
+
+<p><span class="newthought">When, if at all, will Synthetic Biology be like  electronics?</span>  As a designer, I don’t <em>have</em> to know anything about silicon chip physics to prototype electronic devices.<!--more--> I don’t even have to know circuit theory to create an interactive electronic device. With platforms such as the BBC Microbit plus the Grove inventor kit, or the littleBits system<label for="sn-id-MBandGrove" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-MBandGrove" class="margin-toggle" /><span class="sidenote">Check <a href="https://microbit.org" target="_blank">the BBC Microbit Website</a>, <a href="https://seeeddoc.github.io/Grove_System/" target="_blank">Seeed wiki for Grove System</a> and <a href="https://sphero.com/pages/littlebits" target="_blank">littleBits</a> sites. </span>, prototyping with electronics hardware is accessible without knowing circuit theory beyond the most simple understanding. The BBC Microbit allows someone with enough digital literacy to use <a href="https://makecode.microbit.org" target="_blank">Microsoft’s visual programming language, MakeCode</a> to make some pretty impressive prototypes of interactive systems, especially when paired with a breakout board like the with the Grove inventor kit<label for="sn-id-GroveLibs" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-GroveLibs" class="margin-toggle" /><span class="sidenote">If you happen to have one of these kits, I have a <a href="https://github.com/philgough/grove_pygestures" target="_blank">github repository with libraries for use with Microbit/MicroPython/Mu</a> </span>.</p>
+
+<p>I am not the kind of person who would ever advocate for having less knowledge. Having taught Physical Computing in an interaction design course (capital D IXD), it’s important to understand the basics of how electronic systems work. The question is how much knowledge is enough to allow us to design effectively. Did my class need to know about basics of voltage, resistance and power? Sure. Did they need to know how a transistor works at a physical level? To <em>prototype</em> interactive systems, no, they don’t. They need to know how the interactive system collects, and processes data from a sensor, and maps that to some kind of output. But they do this successfully without understanding how a variable resistor works, because the kit we used had one way to plug it in, and one way to read the data. The design students also were able to use these systems to evaluate the interactions with the system. When there’s more than one way to plug the electronic part in (I’m looking at you, <a href="https://wiki.seeedstudio.com/Grove-LED_Socket_Kit/" target="_blank">Grove LED socket</a>!) it causes problems for novices*<label for="mn-id-LEDs" class="margin-toggle"> ⊕</label><input type="checkbox" id="mn-id-LEDs" class="margin-toggle" /><span class="marginnote"><em>the LED socket *does</em> come with an LED that has legs trimmed to equal length… and over a zoom tutorial, it’s difficult to describe which edge is flattened. Long live NeoPixels! </span>. Designers need some knowledge, to communicate with an electrical engineer and/or software developer, but the designers can build and test prototypes with off-the-shelf kits. If we we want to compare prototyping interactive electronics with interactive synthetic biology, the question is worth asking:</p>
+
+<blockquote>
+  <p>How much biology will a designer need to know, in order to prototype with synthetic biology?</p>
+</blockquote>
+
+<p>In a similar vein to the maker movement, <a href="https://www.forbes.com/sites/fernandezelizabeth/2019/09/19/yes-people-can-edit-the-genome-in-their-garage-can-they-be-regulated/" target="_blank">there’s a biohacker culture emerging</a>. Perhaps over time it will bild the same kind of community as a platform such as <a href="http://arduino.cc" target="_blank">Arduino</a>, or the numerous desktop 3D printing systems, which evolved from the earliest robotic prototypes in 1984<label for="sn-id-3dprint" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-3dprint" class="margin-toggle" /><span class="sidenote">See Horvath, J. (2014). <a href="https://doi.org/10.1007/978-1-4842-0025-4_1" target="_blank">A Brief History of 3D Printing</a>. </span>. Today, you can purchase DIY kits allow CRISPR Gene editing at home. So it’s not unreasonable to imagine that one day there will be a designer who will want to prototype with some kind of off-the-shelf synthetic biology kit. What do designers need to know about biology?</p>
+
+<h2 id="ethics">Ethics</h2>
+<p>First and foremost, design needs to develop a set of ethics and principles of working with living things. An introduction to Bioethics would be a good start. Basil Varkey describes 4 principles of bioethics:</p>
+
+<blockquote>
+  <p>Beneficence, nonmaleficence, autonomy, and justice constitute the 4 principles of ethics. The first 2 can be traced back to the time of Hippocrates “to help and do no harm,” while the latter 2 evolved later<label for="sn-id-bioethics" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-bioethics" class="margin-toggle" /><span class="sidenote">p.18 of Varkey2020, <a href="https://doi.org/10.1159/000509119" target="_blank">open access article here</a>. </span>.</p>
+</blockquote>
+
+<p>The DIYBio community has also produced two <a href="https://diybio.org/codes/" target="_blank">sets of ethics codes</a> in 2011 from congresses in Europe and USA. These lists define what DIYBio is, and acting outside these principles rejects the community.</p>
+
+<p>Designing with synthetic biology can learn from the DIYBio ethics and bioethics principles.</p>
+
+<h2 id="collaboration">Collaboration</h2>
+<p>The scientific method as students learn it is a cycle of observation, research, hypothesis, testing, analysis and communication. 
+<label for="mf-id-science" class="margin-toggle">⊕</label><input type="checkbox" id="mf-id-science" class="margin-toggle" /><span class="marginnote"><img class="fullwidth" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/The_Scientific_Method.svg/1920px-The_Scientific_Method.svg.png" /><br />The scientific Method, via <a href="https://en.wikipedia.org/wiki/Scientific_method#/media/File:The_Scientific_Method.svg">wikimedia</a></span>
+However, the reality is that since science is also dealing with more messy (or <a href="https://direct.mit.edu/posc/article/28/4/482/97500/Mess-in-Science-and-Wicked-Problems" target="_blank">wicked</a>) problems than the scientific method implies. This provides an interesting opportunity for collaboration between science and design.</p>
+
+<h2 id="prototyping">Prototyping</h2>
+<p>If I want to make a prototype of an interactive device, I will use a generally programmable microcontroller. I have recently been introduced to the <a href="https://www.adafruit.com/category/943" target="_blank">Adafruit Feather</a> platform. It’s great: small, cheap, flexible. I can design interactions, program the device, evaluate prototypes, test with users, all the stuff I need to do to support my design process. This is particularly relevant as a design researcher, as I want to be able to reuse hardware for another project. However, if the product is going to go into production, it will be run on a custom PCB.</p>
+
+<p>Designers prototyping with Synthetic Biology can also use approaches such as <a href="https://medium.com/the-31-5-guy/the-wizard-of-oz-prototyping-technique-9d8366cd7692" target="_blank"><em>Wizard of Oz</em> method</a>, using digital systems to mimic some of the output that might be produced with synthetic biology. If a bacteria is engineered to glow in response to an environmental stimulus, this is easy to mimic with a microcontroller in order to allow for user testing. There are limitations to these opportunities, as bacteria can efficiently create other kinds of output, such as compounds we detect as scent, that may be more challenging to recreate with an electronic mockup.</p>
+
+<h2 id="final-thought">Final Thought</h2>
+<p>Science, particularly synthetic biology, and design have a lot to offer each other. There is a need for a code of ethics within biodesign as designers start to work with synthetic biology systems. This can be built on top of bioethics and DIYBio. Design also works with messy, intractable and wicked problems, and has many ways of working in this space and can help science navigate this problem space, to draw on the strengths of both fields.</p>
+
+
+
+    </article>
+    <span class="print-footer">Prototyping Biodesign - September 20, 2021 - Phil Gough</span>
+    <footer>
+  <hr class="slender">
+  <ul class="footer-links">   
+    
+      <li>
+        <a href="//www.twitter.com/dr_pjgough" target="_blank" class="no-ul-link"><span class="icon-twitter"></span></a>
+      </li>
+    
+      <li>
+        <a href="//scholar.google.com.au/citations?user=iyKmC4QAAAAJ&hl=en" target="_blank" class="no-ul-link"><span class="icon-google"></span></a>
+      </li>
+    
+      <li>
+        <a href="//github.com/philgough" target="_blank" class="no-ul-link"><span class="icon-github"></span></a>
+      </li>
+    
+      <li>
+        <a href="//www.linkedin.com/in/dr-pjgough/" target="_blank" class="no-ul-link"><span class="icon-linkedin"></span></a>
+      </li>
+    
+      <li>
+        <a href="//www.instagram.com/dr_pjgough" target="_blank" class="no-ul-link"><span class="icon-instagram"></span></a>
+      </li>
+      
+  </ul>
+<div class="credits">
+<span>&copy; 2024 &nbsp;&nbsp;PHIL GOUGH</span></br> <br>
+<span>This site created with the <a href="//github.com/clayh53/tufte-jekyll">Tufte theme for Phil Gough's blog </a> in <a href="//jekyllrb.com">Jekyll</a>.</span> 
+</div>  
+</footer>
+  </body>
+</html>

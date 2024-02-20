@@ -105,7 +105,7 @@ var fig1 = function() {
             // console.log('general kenobi!');
             // console.log(d)
             figure1Hover
-                .html(d.fullTitle + '<br />' + d.value + ' apps.')
+                .html(d.fullTitle + '<br />' + d.value + ' apps')
                 .style('color', bluecol)
                 .style('font-family', 'sans-serif')
                 .style('visibility', 'visible')
@@ -135,7 +135,7 @@ var fig1 = function() {
             // console.log('general kenobi!');
             // console.log(d)
             figure1Hover
-                .html(d.fullTitle + '<br />' + d.value + ' apps.')
+                .html(d.fullTitle + '<br />' + d.value + ' apps')
                 .style('color', bluecol)
                 .style('font-family', 'sans-serif')
                 .style('visibility', 'visible')
@@ -234,11 +234,11 @@ var fig2 = function() {
 
     var xScale = d3.scaleLinear()
     .domain([0, 10])
-    .range([svgDims.padding, svgDims.width - svgDims.padding]);
+    .range([svgDims.padding, svgDims.width - svgDims.padding * 4]);
     
     var yScale = d3.scaleLinear()
     .domain([0, 10])
-    .range([0, svgDims.height - (svgDims.padding * 2)])
+    .range([0, svgDims.height - (svgDims.padding * 4)])
     
     
 
@@ -262,13 +262,13 @@ var fig2 = function() {
     .append('text')
         .attr('id', 'fig2-number')
         .text('42')
-        .attr('x', xScale(7 - 0.7))
-        .attr('y', yScale(10 - 0.4))
+        .attr('x', xScale(0.25))
+        .attr('y', yScale(10.5))
         .style('visibility', 'hidden')
         .style('fill', bluecol)
         .style('font-family', 'sans-serif')
         .style('font-weight', 'bold')
-        .style('font-size', '2rem')
+        .style('font-size', '.75rem')
         .style('text-align', 'center');
 
     // draw rects
@@ -294,9 +294,9 @@ var fig2 = function() {
         .style('stroke', 'none')
 
         .on("mouseover", function(c, d) {
-            var t = d[1]
+            var t = d[0] + " makes " + d[1] + " promises"
             figure2txt
-                .text(t)
+                .html(t)
                 .style('visibility', 'visible')
         })
         .on('mouseout', function(d) {
